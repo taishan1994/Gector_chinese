@@ -1,0 +1,19 @@
+{
+    "token_level:[detect_precision, detect_recall, detect_f1]": [
+        0.5827123695976155,
+        0.7240740740740741,
+        0.6457
+    ],
+    "token_level:[correct_precision, correct_recall, correct_f1] ": [
+        0.35171385991058124,
+        0.43703703703703706,
+        0.3898
+    ],
+    "token_level:f1": 0.59452,
+    "sentence_level:[correct_precision, correct_recall]": [
+        0.3404255319148936,
+        0.35555555555555557
+    ],
+    "sentence_level:f1": 0.3478,
+    "final_f1": 0.5452
+}

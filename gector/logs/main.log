@@ -1,0 +1,1359 @@
+{
+    "token_level:[detect_precision, detect_recall, detect_f1]": [
+        1.0,
+        1.0,
+        1.0
+    ],
+    "token_level:[correct_precision, correct_recall, correct_f1] ": [
+        0.5,
+        0.5,
+        0.5
+    ],
+    "token_level:f1": 0.9,
+    "sentence_level:[correct_precision, correct_recall]": [
+        0.5,
+        0.5
+    ],
+    "sentence_level:f1": 0.5,
+    "final_f1": 0.82
+}2022-11-14 07:55:28,303 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 07:55:28,325 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 07:55:28,355 - INFO - main.py - <module> - 355 - 使用【cuda】
+2022-11-14 07:55:36,140 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 07:55:36,141 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:75.0%, d_recall:60.0%, d_f1:66.67%
+2022-11-14 07:55:36,141 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:75.0%, c_recall:60.0%, c_f1:66.67%
+2022-11-14 07:55:36,141 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 5
+2022-11-14 07:58:08,679 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 07:58:08,702 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 07:58:08,734 - INFO - main.py - <module> - 355 - 使用【cuda】
+2022-11-14 07:58:38,332 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 07:58:38,355 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 07:58:38,387 - INFO - main.py - <module> - 355 - 使用【cuda】
+2022-11-14 08:00:56,169 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:00:56,195 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:00:56,227 - INFO - main.py - <module> - 355 - 使用【cuda】
+2022-11-14 08:07:14,908 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:07:14,936 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:07:14,971 - INFO - main.py - <module> - 358 - 使用【cuda】
+2022-11-14 08:08:31,933 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:08:31,955 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:08:31,988 - INFO - main.py - <module> - 359 - 使用【cuda】
+2022-11-14 08:12:49,828 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:12:49,850 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:12:49,886 - INFO - main.py - <module> - 357 - 使用【cuda】
+2022-11-14 08:13:55,336 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:13:55,359 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:13:55,390 - INFO - main.py - <module> - 357 - 使用【cuda】
+2022-11-14 08:14:24,784 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:14:24,808 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:14:24,843 - INFO - main.py - <module> - 357 - 使用【cuda】
+2022-11-14 08:16:00,081 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:16:00,104 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:16:00,138 - INFO - main.py - <module> - 357 - 使用【cuda】
+2022-11-14 08:20:02,976 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:20:02,999 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:20:03,032 - INFO - main.py - <module> - 357 - 使用【cuda】
+2022-11-14 08:20:50,795 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:20:50,819 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:20:50,850 - INFO - main.py - <module> - 357 - 使用【cuda】
+2022-11-14 08:48:42,734 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:48:42,757 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:48:42,787 - INFO - main.py - <module> - 361 - 使用【cuda】
+2022-11-14 08:48:58,693 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:48:58,716 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:48:58,745 - INFO - main.py - <module> - 361 - 使用【cuda】
+2022-11-14 08:52:50,568 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:52:50,591 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:52:50,625 - INFO - main.py - <module> - 361 - 使用【cuda】
+2022-11-14 08:52:57,311 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:1/60 detect_loss:0.479252 correct_loss:9.990696 loss:10.469948
+2022-11-14 08:52:58,670 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:2/60 detect_loss:0.498338 correct_loss:9.990616 loss:10.488954
+2022-11-14 08:53:00,034 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:3/60 detect_loss:0.496450 correct_loss:9.997283 loss:10.493732
+2022-11-14 08:53:01,413 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:4/60 detect_loss:0.497894 correct_loss:10.005484 loss:10.503378
+2022-11-14 08:53:02,776 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:5/60 detect_loss:0.499776 correct_loss:9.975765 loss:10.475541
+2022-11-14 08:53:03,452 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:6/60 detect_loss:0.499510 correct_loss:9.963722 loss:10.463232
+2022-11-14 08:53:05,109 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:7/60 detect_loss:0.488875 correct_loss:9.977421 loss:10.466295
+2022-11-14 08:53:06,484 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:8/60 detect_loss:0.490887 correct_loss:9.972993 loss:10.463880
+2022-11-14 08:53:07,846 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:9/60 detect_loss:0.487794 correct_loss:9.962780 loss:10.450574
+2022-11-14 08:53:09,219 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:10/60 detect_loss:0.481892 correct_loss:9.946155 loss:10.428046
+2022-11-14 08:53:10,596 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:11/60 detect_loss:0.486247 correct_loss:9.965684 loss:10.451931
+2022-11-14 08:53:11,265 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:12/60 detect_loss:0.496584 correct_loss:9.973099 loss:10.469683
+2022-11-14 08:53:12,820 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:13/60 detect_loss:0.484783 correct_loss:9.940961 loss:10.425744
+2022-11-14 08:53:14,199 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:14/60 detect_loss:0.478806 correct_loss:9.949407 loss:10.428213
+2022-11-14 08:53:15,588 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:15/60 detect_loss:0.482411 correct_loss:9.937778 loss:10.420189
+2022-11-14 08:53:16,975 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:16/60 detect_loss:0.479251 correct_loss:9.944098 loss:10.423349
+2022-11-14 08:53:18,354 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:17/60 detect_loss:0.478618 correct_loss:9.937851 loss:10.416470
+2022-11-14 08:53:19,026 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:18/60 detect_loss:0.490085 correct_loss:9.933301 loss:10.423387
+2022-11-14 08:53:20,573 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:19/60 detect_loss:0.484269 correct_loss:9.911710 loss:10.395979
+2022-11-14 08:53:21,964 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:20/60 detect_loss:0.465837 correct_loss:9.943922 loss:10.409759
+2022-11-14 08:53:23,359 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:21/60 detect_loss:0.479001 correct_loss:9.919329 loss:10.398329
+2022-11-14 08:53:24,755 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:22/60 detect_loss:0.474419 correct_loss:9.914036 loss:10.388454
+2022-11-14 08:53:26,157 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:23/60 detect_loss:0.472260 correct_loss:9.909098 loss:10.381357
+2022-11-14 08:53:26,861 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:24/60 detect_loss:0.457243 correct_loss:9.892167 loss:10.349410
+2022-11-14 08:53:28,418 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:25/60 detect_loss:0.474655 correct_loss:9.905618 loss:10.380273
+2022-11-14 08:53:29,837 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:26/60 detect_loss:0.470378 correct_loss:9.899104 loss:10.369482
+2022-11-14 08:53:31,254 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:27/60 detect_loss:0.471729 correct_loss:9.904469 loss:10.376199
+2022-11-14 08:53:32,667 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:28/60 detect_loss:0.466827 correct_loss:9.903479 loss:10.370306
+2022-11-14 08:53:34,084 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:29/60 detect_loss:0.457870 correct_loss:9.886260 loss:10.344130
+2022-11-14 08:53:34,776 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:30/60 detect_loss:0.470530 correct_loss:9.885488 loss:10.356018
+2022-11-14 08:53:36,345 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:31/60 detect_loss:0.462566 correct_loss:9.881010 loss:10.343576
+2022-11-14 08:53:37,772 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:32/60 detect_loss:0.454968 correct_loss:9.879640 loss:10.334608
+2022-11-14 08:53:39,197 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:33/60 detect_loss:0.465572 correct_loss:9.898230 loss:10.363801
+2022-11-14 08:53:40,619 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:34/60 detect_loss:0.462562 correct_loss:9.888282 loss:10.350843
+2022-11-14 08:53:42,047 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:35/60 detect_loss:0.471353 correct_loss:9.870448 loss:10.341802
+2022-11-14 08:53:42,743 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:36/60 detect_loss:0.482032 correct_loss:9.869365 loss:10.351397
+2022-11-14 08:53:44,338 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:37/60 detect_loss:0.461161 correct_loss:9.882397 loss:10.343557
+2022-11-14 08:53:45,773 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:38/60 detect_loss:0.464467 correct_loss:9.863385 loss:10.327852
+2022-11-14 08:53:47,195 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:39/60 detect_loss:0.458375 correct_loss:9.872969 loss:10.331344
+2022-11-14 08:53:48,626 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:40/60 detect_loss:0.460141 correct_loss:9.871748 loss:10.331889
+2022-11-14 08:53:50,056 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:41/60 detect_loss:0.457916 correct_loss:9.862965 loss:10.320881
+2022-11-14 08:53:50,753 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:42/60 detect_loss:0.452481 correct_loss:9.873675 loss:10.326156
+2022-11-14 08:53:52,358 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:43/60 detect_loss:0.453045 correct_loss:9.853452 loss:10.306497
+2022-11-14 08:53:53,792 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:44/60 detect_loss:0.452888 correct_loss:9.848505 loss:10.301393
+2022-11-14 08:53:55,223 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:45/60 detect_loss:0.455820 correct_loss:9.873394 loss:10.329214
+2022-11-14 08:53:56,659 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:46/60 detect_loss:0.464608 correct_loss:9.859748 loss:10.324355
+2022-11-14 08:53:58,107 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:47/60 detect_loss:0.467886 correct_loss:9.855798 loss:10.323684
+2022-11-14 08:53:58,818 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:48/60 detect_loss:0.444850 correct_loss:9.874737 loss:10.319587
+2022-11-14 08:54:00,421 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:49/60 detect_loss:0.457158 correct_loss:9.871480 loss:10.328638
+2022-11-14 08:54:01,875 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:50/60 detect_loss:0.455756 correct_loss:9.852600 loss:10.308356
+2022-11-14 08:54:03,323 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:51/60 detect_loss:0.461022 correct_loss:9.862025 loss:10.323047
+2022-11-14 08:54:04,770 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:52/60 detect_loss:0.460354 correct_loss:9.847984 loss:10.308338
+2022-11-14 08:54:06,220 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:53/60 detect_loss:0.450080 correct_loss:9.840707 loss:10.290787
+2022-11-14 08:54:06,933 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:54/60 detect_loss:0.458771 correct_loss:9.852441 loss:10.311212
+2022-11-14 08:54:08,527 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:55/60 detect_loss:0.459335 correct_loss:9.860797 loss:10.320132
+2022-11-14 08:54:09,976 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:56/60 detect_loss:0.450562 correct_loss:9.841377 loss:10.291940
+2022-11-14 08:54:11,418 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:57/60 detect_loss:0.459686 correct_loss:9.854702 loss:10.314388
+2022-11-14 08:54:12,867 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:58/60 detect_loss:0.458907 correct_loss:9.848885 loss:10.307792
+2022-11-14 08:54:21,546 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:54:21,571 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 08:54:21,611 - INFO - main.py - <module> - 361 - 使用【cuda】
+2022-11-14 08:54:28,204 - INFO - main.py - train - 89 - 【train】 epoch:1/50 step:1/300 detect_loss:0.479252 correct_loss:9.990696 loss:10.469948
+2022-11-14 08:54:29,640 - INFO - main.py - train - 89 - 【train】 epoch:1/50 step:2/300 detect_loss:0.498338 correct_loss:9.990616 loss:10.488954
+2022-11-14 08:54:31,077 - INFO - main.py - train - 89 - 【train】 epoch:1/50 step:3/300 detect_loss:0.496640 correct_loss:9.997904 loss:10.494544
+2022-11-14 08:54:32,518 - INFO - main.py - train - 89 - 【train】 epoch:1/50 step:4/300 detect_loss:0.498610 correct_loss:10.007411 loss:10.506021
+2022-11-14 08:54:33,960 - INFO - main.py - train - 89 - 【train】 epoch:1/50 step:5/300 detect_loss:0.500837 correct_loss:9.979572 loss:10.480409
+2022-11-14 08:54:34,669 - INFO - main.py - train - 89 - 【train】 epoch:1/50 step:6/300 detect_loss:0.501541 correct_loss:9.970015 loss:10.471556
+2022-11-14 08:54:36,289 - INFO - main.py - train - 89 - 【train】 epoch:2/50 step:7/300 detect_loss:0.491673 correct_loss:9.987235 loss:10.478908
+2022-11-14 08:54:37,743 - INFO - main.py - train - 89 - 【train】 epoch:2/50 step:8/300 detect_loss:0.494925 correct_loss:9.985567 loss:10.480492
+2022-11-14 08:54:39,191 - INFO - main.py - train - 89 - 【train】 epoch:2/50 step:9/300 detect_loss:0.492688 correct_loss:9.980036 loss:10.472724
+2022-11-14 08:54:47,959 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:54:47,959 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6199999999999999%, d_recall:100.0%, d_f1:3.19%
+2022-11-14 08:54:47,960 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:54:47,960 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:54:47,962 - INFO - main.py - train - 105 - 【dev】 loss:167.744058 d_precision:0.0162 d_recall:1.0000 d_f1:0.0319 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:54:49,410 - INFO - main.py - train - 89 - 【train】 epoch:2/50 step:10/300 detect_loss:0.487966 correct_loss:9.966986 loss:10.454952
+2022-11-14 08:54:50,891 - INFO - main.py - train - 89 - 【train】 epoch:2/50 step:11/300 detect_loss:0.493339 correct_loss:9.989062 loss:10.482401
+2022-11-14 08:54:51,611 - INFO - main.py - train - 89 - 【train】 epoch:2/50 step:12/300 detect_loss:0.504782 correct_loss:9.998831 loss:10.503613
+2022-11-14 08:54:53,239 - INFO - main.py - train - 89 - 【train】 epoch:3/50 step:13/300 detect_loss:0.500097 correct_loss:9.983994 loss:10.484091
+2022-11-14 08:54:54,738 - INFO - main.py - train - 89 - 【train】 epoch:3/50 step:14/300 detect_loss:0.496692 correct_loss:9.977901 loss:10.474593
+2022-11-14 08:54:56,231 - INFO - main.py - train - 89 - 【train】 epoch:3/50 step:15/300 detect_loss:0.485983 correct_loss:9.965750 loss:10.451733
+2022-11-14 08:54:57,717 - INFO - main.py - train - 89 - 【train】 epoch:3/50 step:16/300 detect_loss:0.482663 correct_loss:9.977819 loss:10.460483
+2022-11-14 08:54:59,226 - INFO - main.py - train - 89 - 【train】 epoch:3/50 step:17/300 detect_loss:0.494391 correct_loss:9.959799 loss:10.454190
+2022-11-14 08:54:59,950 - INFO - main.py - train - 89 - 【train】 epoch:3/50 step:18/300 detect_loss:0.491207 correct_loss:9.974092 loss:10.465298
+2022-11-14 08:55:01,602 - INFO - main.py - train - 89 - 【train】 epoch:4/50 step:19/300 detect_loss:0.496571 correct_loss:9.964714 loss:10.461285
+2022-11-14 08:55:10,629 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:55:10,629 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6199999999999999%, d_recall:100.0%, d_f1:3.19%
+2022-11-14 08:55:10,629 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:55:10,630 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:55:10,632 - INFO - main.py - train - 105 - 【dev】 loss:167.294571 d_precision:0.0162 d_recall:1.0000 d_f1:0.0319 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:55:12,128 - INFO - main.py - train - 89 - 【train】 epoch:4/50 step:20/300 detect_loss:0.473485 correct_loss:9.967756 loss:10.441241
+2022-11-14 08:55:13,649 - INFO - main.py - train - 89 - 【train】 epoch:4/50 step:21/300 detect_loss:0.483983 correct_loss:9.965878 loss:10.449862
+2022-11-14 08:55:15,153 - INFO - main.py - train - 89 - 【train】 epoch:4/50 step:22/300 detect_loss:0.482203 correct_loss:9.949462 loss:10.431665
+2022-11-14 08:55:16,668 - INFO - main.py - train - 89 - 【train】 epoch:4/50 step:23/300 detect_loss:0.486729 correct_loss:9.949862 loss:10.436590
+2022-11-14 08:55:17,407 - INFO - main.py - train - 89 - 【train】 epoch:4/50 step:24/300 detect_loss:0.491412 correct_loss:9.931397 loss:10.422810
+2022-11-14 08:55:19,077 - INFO - main.py - train - 89 - 【train】 epoch:5/50 step:25/300 detect_loss:0.476056 correct_loss:9.936868 loss:10.412924
+2022-11-14 08:55:20,604 - INFO - main.py - train - 89 - 【train】 epoch:5/50 step:26/300 detect_loss:0.473649 correct_loss:9.938047 loss:10.411695
+2022-11-14 08:55:22,106 - INFO - main.py - train - 89 - 【train】 epoch:5/50 step:27/300 detect_loss:0.480386 correct_loss:9.946405 loss:10.426791
+2022-11-14 08:55:23,622 - INFO - main.py - train - 89 - 【train】 epoch:5/50 step:28/300 detect_loss:0.472660 correct_loss:9.943817 loss:10.416477
+2022-11-14 08:55:25,125 - INFO - main.py - train - 89 - 【train】 epoch:5/50 step:29/300 detect_loss:0.487180 correct_loss:9.920718 loss:10.407898
+2022-11-14 08:55:34,300 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:55:34,300 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6199999999999999%, d_recall:100.0%, d_f1:3.19%
+2022-11-14 08:55:34,300 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:55:34,300 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:55:34,302 - INFO - main.py - train - 105 - 【dev】 loss:166.506236 d_precision:0.0162 d_recall:1.0000 d_f1:0.0319 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:55:35,026 - INFO - main.py - train - 89 - 【train】 epoch:5/50 step:30/300 detect_loss:0.494140 correct_loss:9.929872 loss:10.424012
+2022-11-14 08:55:36,721 - INFO - main.py - train - 89 - 【train】 epoch:6/50 step:31/300 detect_loss:0.471365 correct_loss:9.927721 loss:10.399086
+2022-11-14 08:55:38,262 - INFO - main.py - train - 89 - 【train】 epoch:6/50 step:32/300 detect_loss:0.474276 correct_loss:9.918847 loss:10.393124
+2022-11-14 08:55:39,802 - INFO - main.py - train - 89 - 【train】 epoch:6/50 step:33/300 detect_loss:0.479321 correct_loss:9.916302 loss:10.395623
+2022-11-14 08:55:41,343 - INFO - main.py - train - 89 - 【train】 epoch:6/50 step:34/300 detect_loss:0.471217 correct_loss:9.910736 loss:10.381953
+2022-11-14 08:55:42,891 - INFO - main.py - train - 89 - 【train】 epoch:6/50 step:35/300 detect_loss:0.465505 correct_loss:9.888133 loss:10.353638
+2022-11-14 08:55:43,649 - INFO - main.py - train - 89 - 【train】 epoch:6/50 step:36/300 detect_loss:0.472130 correct_loss:9.882984 loss:10.355114
+2022-11-14 08:55:45,348 - INFO - main.py - train - 89 - 【train】 epoch:7/50 step:37/300 detect_loss:0.472576 correct_loss:9.916130 loss:10.388706
+2022-11-14 08:55:46,903 - INFO - main.py - train - 89 - 【train】 epoch:7/50 step:38/300 detect_loss:0.459888 correct_loss:9.883072 loss:10.342960
+2022-11-14 08:55:48,457 - INFO - main.py - train - 89 - 【train】 epoch:7/50 step:39/300 detect_loss:0.467351 correct_loss:9.885097 loss:10.352448
+2022-11-14 08:55:57,847 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:55:57,847 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6199999999999999%, d_recall:100.0%, d_f1:3.19%
+2022-11-14 08:55:57,848 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:55:57,848 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:55:57,850 - INFO - main.py - train - 105 - 【dev】 loss:165.539519 d_precision:0.0162 d_recall:1.0000 d_f1:0.0319 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:55:59,382 - INFO - main.py - train - 89 - 【train】 epoch:7/50 step:40/300 detect_loss:0.468408 correct_loss:9.877598 loss:10.346006
+2022-11-14 08:56:00,940 - INFO - main.py - train - 89 - 【train】 epoch:7/50 step:41/300 detect_loss:0.463426 correct_loss:9.873868 loss:10.337295
+2022-11-14 08:56:01,691 - INFO - main.py - train - 89 - 【train】 epoch:7/50 step:42/300 detect_loss:0.461625 correct_loss:9.882317 loss:10.343942
+2022-11-14 08:56:03,394 - INFO - main.py - train - 89 - 【train】 epoch:8/50 step:43/300 detect_loss:0.460782 correct_loss:9.873294 loss:10.334076
+2022-11-14 08:56:04,963 - INFO - main.py - train - 89 - 【train】 epoch:8/50 step:44/300 detect_loss:0.454783 correct_loss:9.849854 loss:10.304637
+2022-11-14 08:56:06,497 - INFO - main.py - train - 89 - 【train】 epoch:8/50 step:45/300 detect_loss:0.463461 correct_loss:9.864498 loss:10.327959
+2022-11-14 08:56:08,058 - INFO - main.py - train - 89 - 【train】 epoch:8/50 step:46/300 detect_loss:0.463007 correct_loss:9.851583 loss:10.314590
+2022-11-14 08:56:09,600 - INFO - main.py - train - 89 - 【train】 epoch:8/50 step:47/300 detect_loss:0.456243 correct_loss:9.845258 loss:10.301500
+2022-11-14 08:56:10,356 - INFO - main.py - train - 89 - 【train】 epoch:8/50 step:48/300 detect_loss:0.446199 correct_loss:9.840476 loss:10.286675
+2022-11-14 08:56:12,055 - INFO - main.py - train - 89 - 【train】 epoch:9/50 step:49/300 detect_loss:0.448769 correct_loss:9.837661 loss:10.286429
+2022-11-14 08:56:21,438 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:56:21,438 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6199999999999999%, d_recall:100.0%, d_f1:3.19%
+2022-11-14 08:56:21,439 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:56:21,439 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:56:21,441 - INFO - main.py - train - 105 - 【dev】 loss:164.602382 d_precision:0.0162 d_recall:1.0000 d_f1:0.0319 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:56:22,986 - INFO - main.py - train - 89 - 【train】 epoch:9/50 step:50/300 detect_loss:0.454164 correct_loss:9.858076 loss:10.312241
+2022-11-14 08:56:24,560 - INFO - main.py - train - 89 - 【train】 epoch:9/50 step:51/300 detect_loss:0.456491 correct_loss:9.828094 loss:10.284585
+2022-11-14 08:56:26,148 - INFO - main.py - train - 89 - 【train】 epoch:9/50 step:52/300 detect_loss:0.450887 correct_loss:9.815969 loss:10.266855
+2022-11-14 08:56:27,725 - INFO - main.py - train - 89 - 【train】 epoch:9/50 step:53/300 detect_loss:0.445501 correct_loss:9.819761 loss:10.265263
+2022-11-14 08:56:28,494 - INFO - main.py - train - 89 - 【train】 epoch:9/50 step:54/300 detect_loss:0.456873 correct_loss:9.809607 loss:10.266479
+2022-11-14 08:56:30,302 - INFO - main.py - train - 89 - 【train】 epoch:10/50 step:55/300 detect_loss:0.447980 correct_loss:9.797632 loss:10.245612
+2022-11-14 08:56:31,892 - INFO - main.py - train - 89 - 【train】 epoch:10/50 step:56/300 detect_loss:0.442312 correct_loss:9.816817 loss:10.259130
+2022-11-14 08:56:33,474 - INFO - main.py - train - 89 - 【train】 epoch:10/50 step:57/300 detect_loss:0.446960 correct_loss:9.807350 loss:10.254311
+2022-11-14 08:56:35,063 - INFO - main.py - train - 89 - 【train】 epoch:10/50 step:58/300 detect_loss:0.437815 correct_loss:9.797268 loss:10.235083
+2022-11-14 08:56:36,641 - INFO - main.py - train - 89 - 【train】 epoch:10/50 step:59/300 detect_loss:0.440372 correct_loss:9.783140 loss:10.223513
+2022-11-14 08:56:46,165 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:56:46,166 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6199999999999999%, d_recall:99.92%, d_f1:3.19%
+2022-11-14 08:56:46,166 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:56:46,166 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:56:46,168 - INFO - main.py - train - 105 - 【dev】 loss:163.692507 d_precision:0.0162 d_recall:0.9992 d_f1:0.0319 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:56:46,913 - INFO - main.py - train - 89 - 【train】 epoch:10/50 step:60/300 detect_loss:0.455237 correct_loss:9.804387 loss:10.259624
+2022-11-14 08:56:48,676 - INFO - main.py - train - 89 - 【train】 epoch:11/50 step:61/300 detect_loss:0.445972 correct_loss:9.778865 loss:10.224837
+2022-11-14 08:56:50,265 - INFO - main.py - train - 89 - 【train】 epoch:11/50 step:62/300 detect_loss:0.434076 correct_loss:9.768772 loss:10.202847
+2022-11-14 08:56:51,831 - INFO - main.py - train - 89 - 【train】 epoch:11/50 step:63/300 detect_loss:0.430710 correct_loss:9.786160 loss:10.216869
+2022-11-14 08:56:53,412 - INFO - main.py - train - 89 - 【train】 epoch:11/50 step:64/300 detect_loss:0.437449 correct_loss:9.775445 loss:10.212893
+2022-11-14 08:56:54,991 - INFO - main.py - train - 89 - 【train】 epoch:11/50 step:65/300 detect_loss:0.445214 correct_loss:9.778162 loss:10.223375
+2022-11-14 08:56:55,757 - INFO - main.py - train - 89 - 【train】 epoch:11/50 step:66/300 detect_loss:0.432142 correct_loss:9.769472 loss:10.201614
+2022-11-14 08:56:57,479 - INFO - main.py - train - 89 - 【train】 epoch:12/50 step:67/300 detect_loss:0.442291 correct_loss:9.759548 loss:10.201839
+2022-11-14 08:56:59,072 - INFO - main.py - train - 89 - 【train】 epoch:12/50 step:68/300 detect_loss:0.435426 correct_loss:9.758020 loss:10.193447
+2022-11-14 08:57:00,657 - INFO - main.py - train - 89 - 【train】 epoch:12/50 step:69/300 detect_loss:0.431978 correct_loss:9.754833 loss:10.186811
+2022-11-14 08:57:10,313 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:57:10,313 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6199999999999999%, d_recall:99.92%, d_f1:3.19%
+2022-11-14 08:57:10,313 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:57:10,313 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:57:10,315 - INFO - main.py - train - 105 - 【dev】 loss:162.814054 d_precision:0.0162 d_recall:0.9992 d_f1:0.0319 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:57:11,903 - INFO - main.py - train - 89 - 【train】 epoch:12/50 step:70/300 detect_loss:0.426570 correct_loss:9.748757 loss:10.175327
+2022-11-14 08:57:13,534 - INFO - main.py - train - 89 - 【train】 epoch:12/50 step:71/300 detect_loss:0.428490 correct_loss:9.741047 loss:10.169537
+2022-11-14 08:57:14,305 - INFO - main.py - train - 89 - 【train】 epoch:12/50 step:72/300 detect_loss:0.430889 correct_loss:9.733743 loss:10.164632
+2022-11-14 08:57:16,075 - INFO - main.py - train - 89 - 【train】 epoch:13/50 step:73/300 detect_loss:0.441353 correct_loss:9.738437 loss:10.179790
+2022-11-14 08:57:17,712 - INFO - main.py - train - 89 - 【train】 epoch:13/50 step:74/300 detect_loss:0.433468 correct_loss:9.738311 loss:10.171779
+2022-11-14 08:57:19,325 - INFO - main.py - train - 89 - 【train】 epoch:13/50 step:75/300 detect_loss:0.418815 correct_loss:9.725152 loss:10.143968
+2022-11-14 08:57:20,957 - INFO - main.py - train - 89 - 【train】 epoch:13/50 step:76/300 detect_loss:0.419918 correct_loss:9.722271 loss:10.142189
+2022-11-14 08:57:22,578 - INFO - main.py - train - 89 - 【train】 epoch:13/50 step:77/300 detect_loss:0.419926 correct_loss:9.710151 loss:10.130077
+2022-11-14 08:57:23,364 - INFO - main.py - train - 89 - 【train】 epoch:13/50 step:78/300 detect_loss:0.423866 correct_loss:9.701502 loss:10.125368
+2022-11-14 08:57:25,135 - INFO - main.py - train - 89 - 【train】 epoch:14/50 step:79/300 detect_loss:0.419332 correct_loss:9.711017 loss:10.130348
+2022-11-14 08:57:35,009 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:57:35,010 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6199999999999999%, d_recall:99.83999999999999%, d_f1:3.19%
+2022-11-14 08:57:35,010 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:57:35,010 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:57:35,012 - INFO - main.py - train - 105 - 【dev】 loss:161.954177 d_precision:0.0162 d_recall:0.9984 d_f1:0.0319 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:57:36,596 - INFO - main.py - train - 89 - 【train】 epoch:14/50 step:80/300 detect_loss:0.426832 correct_loss:9.702336 loss:10.129169
+2022-11-14 08:57:38,217 - INFO - main.py - train - 89 - 【train】 epoch:14/50 step:81/300 detect_loss:0.416916 correct_loss:9.701417 loss:10.118334
+2022-11-14 08:57:39,820 - INFO - main.py - train - 89 - 【train】 epoch:14/50 step:82/300 detect_loss:0.416688 correct_loss:9.691432 loss:10.108120
+2022-11-14 08:57:41,441 - INFO - main.py - train - 89 - 【train】 epoch:14/50 step:83/300 detect_loss:0.418310 correct_loss:9.692820 loss:10.111130
+2022-11-14 08:57:42,215 - INFO - main.py - train - 89 - 【train】 epoch:14/50 step:84/300 detect_loss:0.419671 correct_loss:9.673761 loss:10.093432
+2022-11-14 08:57:43,990 - INFO - main.py - train - 89 - 【train】 epoch:15/50 step:85/300 detect_loss:0.414031 correct_loss:9.689884 loss:10.103915
+2022-11-14 08:57:45,599 - INFO - main.py - train - 89 - 【train】 epoch:15/50 step:86/300 detect_loss:0.415813 correct_loss:9.678586 loss:10.094399
+2022-11-14 08:57:47,204 - INFO - main.py - train - 89 - 【train】 epoch:15/50 step:87/300 detect_loss:0.410761 correct_loss:9.679548 loss:10.090310
+2022-11-14 08:57:48,820 - INFO - main.py - train - 89 - 【train】 epoch:15/50 step:88/300 detect_loss:0.410617 correct_loss:9.670612 loss:10.081229
+2022-11-14 08:57:50,426 - INFO - main.py - train - 89 - 【train】 epoch:15/50 step:89/300 detect_loss:0.425375 correct_loss:9.673703 loss:10.099078
+2022-11-14 08:58:00,193 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:58:00,193 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6199999999999999%, d_recall:99.83999999999999%, d_f1:3.19%
+2022-11-14 08:58:00,193 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:58:00,194 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:58:00,195 - INFO - main.py - train - 105 - 【dev】 loss:161.141648 d_precision:0.0162 d_recall:0.9984 d_f1:0.0319 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:58:00,947 - INFO - main.py - train - 89 - 【train】 epoch:15/50 step:90/300 detect_loss:0.414177 correct_loss:9.644167 loss:10.058344
+2022-11-14 08:58:02,720 - INFO - main.py - train - 89 - 【train】 epoch:16/50 step:91/300 detect_loss:0.415369 correct_loss:9.658098 loss:10.073467
+2022-11-14 08:58:04,340 - INFO - main.py - train - 89 - 【train】 epoch:16/50 step:92/300 detect_loss:0.405739 correct_loss:9.651604 loss:10.057343
+2022-11-14 08:58:05,948 - INFO - main.py - train - 89 - 【train】 epoch:16/50 step:93/300 detect_loss:0.414681 correct_loss:9.646548 loss:10.061230
+2022-11-14 08:58:07,557 - INFO - main.py - train - 89 - 【train】 epoch:16/50 step:94/300 detect_loss:0.408381 correct_loss:9.646697 loss:10.055078
+2022-11-14 08:58:09,159 - INFO - main.py - train - 89 - 【train】 epoch:16/50 step:95/300 detect_loss:0.413116 correct_loss:9.633121 loss:10.046237
+2022-11-14 08:58:09,936 - INFO - main.py - train - 89 - 【train】 epoch:16/50 step:96/300 detect_loss:0.405537 correct_loss:9.648638 loss:10.054175
+2022-11-14 08:58:11,706 - INFO - main.py - train - 89 - 【train】 epoch:17/50 step:97/300 detect_loss:0.412883 correct_loss:9.630814 loss:10.043696
+2022-11-14 08:58:13,334 - INFO - main.py - train - 89 - 【train】 epoch:17/50 step:98/300 detect_loss:0.414645 correct_loss:9.612857 loss:10.027501
+2022-11-14 08:58:14,932 - INFO - main.py - train - 89 - 【train】 epoch:17/50 step:99/300 detect_loss:0.404833 correct_loss:9.635086 loss:10.039919
+2022-11-14 08:58:24,749 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:58:24,749 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6199999999999999%, d_recall:99.83999999999999%, d_f1:3.19%
+2022-11-14 08:58:24,749 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:58:24,750 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:58:24,752 - INFO - main.py - train - 105 - 【dev】 loss:160.369957 d_precision:0.0162 d_recall:0.9984 d_f1:0.0319 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:58:26,339 - INFO - main.py - train - 89 - 【train】 epoch:17/50 step:100/300 detect_loss:0.399082 correct_loss:9.621652 loss:10.020734
+2022-11-14 08:58:27,963 - INFO - main.py - train - 89 - 【train】 epoch:17/50 step:101/300 detect_loss:0.394588 correct_loss:9.634350 loss:10.028938
+2022-11-14 08:58:28,738 - INFO - main.py - train - 89 - 【train】 epoch:17/50 step:102/300 detect_loss:0.398460 correct_loss:9.609092 loss:10.007552
+2022-11-14 08:58:30,513 - INFO - main.py - train - 89 - 【train】 epoch:18/50 step:103/300 detect_loss:0.410928 correct_loss:9.626287 loss:10.037215
+2022-11-14 08:58:32,139 - INFO - main.py - train - 89 - 【train】 epoch:18/50 step:104/300 detect_loss:0.389971 correct_loss:9.592422 loss:9.982392
+2022-11-14 08:58:33,759 - INFO - main.py - train - 89 - 【train】 epoch:18/50 step:105/300 detect_loss:0.404020 correct_loss:9.605727 loss:10.009748
+2022-11-14 08:58:35,383 - INFO - main.py - train - 89 - 【train】 epoch:18/50 step:106/300 detect_loss:0.396100 correct_loss:9.610123 loss:10.006223
+2022-11-14 08:58:37,001 - INFO - main.py - train - 89 - 【train】 epoch:18/50 step:107/300 detect_loss:0.403464 correct_loss:9.595168 loss:9.998632
+2022-11-14 08:58:37,789 - INFO - main.py - train - 89 - 【train】 epoch:18/50 step:108/300 detect_loss:0.408280 correct_loss:9.597924 loss:10.006205
+2022-11-14 08:58:39,679 - INFO - main.py - train - 89 - 【train】 epoch:19/50 step:109/300 detect_loss:0.401602 correct_loss:9.592104 loss:9.993706
+2022-11-14 08:58:49,550 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:58:49,550 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6199999999999999%, d_recall:99.75%, d_f1:3.19%
+2022-11-14 08:58:49,550 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:58:49,551 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:58:49,552 - INFO - main.py - train - 105 - 【dev】 loss:159.635282 d_precision:0.0162 d_recall:0.9975 d_f1:0.0319 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:58:51,160 - INFO - main.py - train - 89 - 【train】 epoch:19/50 step:110/300 detect_loss:0.403494 correct_loss:9.594859 loss:9.998353
+2022-11-14 08:58:52,789 - INFO - main.py - train - 89 - 【train】 epoch:19/50 step:111/300 detect_loss:0.392799 correct_loss:9.567189 loss:9.959988
+2022-11-14 08:58:54,404 - INFO - main.py - train - 89 - 【train】 epoch:19/50 step:112/300 detect_loss:0.404119 correct_loss:9.574497 loss:9.978617
+2022-11-14 08:58:56,035 - INFO - main.py - train - 89 - 【train】 epoch:19/50 step:113/300 detect_loss:0.392334 correct_loss:9.583851 loss:9.976185
+2022-11-14 08:58:56,817 - INFO - main.py - train - 89 - 【train】 epoch:19/50 step:114/300 detect_loss:0.385999 correct_loss:9.588630 loss:9.974628
+2022-11-14 08:58:58,608 - INFO - main.py - train - 89 - 【train】 epoch:20/50 step:115/300 detect_loss:0.390177 correct_loss:9.567109 loss:9.957287
+2022-11-14 08:59:00,245 - INFO - main.py - train - 89 - 【train】 epoch:20/50 step:116/300 detect_loss:0.378985 correct_loss:9.565928 loss:9.944912
+2022-11-14 08:59:01,858 - INFO - main.py - train - 89 - 【train】 epoch:20/50 step:117/300 detect_loss:0.398374 correct_loss:9.581865 loss:9.980240
+2022-11-14 08:59:03,473 - INFO - main.py - train - 89 - 【train】 epoch:20/50 step:118/300 detect_loss:0.397212 correct_loss:9.560948 loss:9.958160
+2022-11-14 08:59:05,093 - INFO - main.py - train - 89 - 【train】 epoch:20/50 step:119/300 detect_loss:0.400728 correct_loss:9.546232 loss:9.946960
+2022-11-14 08:59:14,944 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:59:14,944 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6199999999999999%, d_recall:99.59%, d_f1:3.19%
+2022-11-14 08:59:14,945 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:59:14,945 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:59:14,946 - INFO - main.py - train - 105 - 【dev】 loss:158.920461 d_precision:0.0162 d_recall:0.9959 d_f1:0.0319 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:59:15,705 - INFO - main.py - train - 89 - 【train】 epoch:20/50 step:120/300 detect_loss:0.403361 correct_loss:9.563604 loss:9.966966
+2022-11-14 08:59:17,477 - INFO - main.py - train - 89 - 【train】 epoch:21/50 step:121/300 detect_loss:0.398042 correct_loss:9.532660 loss:9.930701
+2022-11-14 08:59:19,113 - INFO - main.py - train - 89 - 【train】 epoch:21/50 step:122/300 detect_loss:0.388798 correct_loss:9.548804 loss:9.937602
+2022-11-14 08:59:20,724 - INFO - main.py - train - 89 - 【train】 epoch:21/50 step:123/300 detect_loss:0.390909 correct_loss:9.547877 loss:9.938787
+2022-11-14 08:59:22,345 - INFO - main.py - train - 89 - 【train】 epoch:21/50 step:124/300 detect_loss:0.388975 correct_loss:9.545643 loss:9.934617
+2022-11-14 08:59:23,965 - INFO - main.py - train - 89 - 【train】 epoch:21/50 step:125/300 detect_loss:0.389658 correct_loss:9.537896 loss:9.927554
+2022-11-14 08:59:24,745 - INFO - main.py - train - 89 - 【train】 epoch:21/50 step:126/300 detect_loss:0.385310 correct_loss:9.520350 loss:9.905660
+2022-11-14 08:59:26,517 - INFO - main.py - train - 89 - 【train】 epoch:22/50 step:127/300 detect_loss:0.390937 correct_loss:9.522073 loss:9.913010
+2022-11-14 08:59:28,149 - INFO - main.py - train - 89 - 【train】 epoch:22/50 step:128/300 detect_loss:0.378965 correct_loss:9.532169 loss:9.911134
+2022-11-14 08:59:29,771 - INFO - main.py - train - 89 - 【train】 epoch:22/50 step:129/300 detect_loss:0.383178 correct_loss:9.518320 loss:9.901499
+2022-11-14 08:59:39,623 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 08:59:39,624 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6099999999999999%, d_recall:99.33999999999999%, d_f1:3.17%
+2022-11-14 08:59:39,624 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 08:59:39,624 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 08:59:39,626 - INFO - main.py - train - 105 - 【dev】 loss:158.249961 d_precision:0.0161 d_recall:0.9934 d_f1:0.0317 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 08:59:41,237 - INFO - main.py - train - 89 - 【train】 epoch:22/50 step:130/300 detect_loss:0.387417 correct_loss:9.508380 loss:9.895797
+2022-11-14 08:59:42,860 - INFO - main.py - train - 89 - 【train】 epoch:22/50 step:131/300 detect_loss:0.392168 correct_loss:9.523851 loss:9.916019
+2022-11-14 08:59:43,635 - INFO - main.py - train - 89 - 【train】 epoch:22/50 step:132/300 detect_loss:0.381474 correct_loss:9.531645 loss:9.913118
+2022-11-14 08:59:45,421 - INFO - main.py - train - 89 - 【train】 epoch:23/50 step:133/300 detect_loss:0.384496 correct_loss:9.500517 loss:9.885013
+2022-11-14 08:59:47,047 - INFO - main.py - train - 89 - 【train】 epoch:23/50 step:134/300 detect_loss:0.386366 correct_loss:9.499512 loss:9.885878
+2022-11-14 08:59:48,648 - INFO - main.py - train - 89 - 【train】 epoch:23/50 step:135/300 detect_loss:0.386470 correct_loss:9.503343 loss:9.889812
+2022-11-14 08:59:50,261 - INFO - main.py - train - 89 - 【train】 epoch:23/50 step:136/300 detect_loss:0.382642 correct_loss:9.490867 loss:9.873508
+2022-11-14 08:59:51,872 - INFO - main.py - train - 89 - 【train】 epoch:23/50 step:137/300 detect_loss:0.374832 correct_loss:9.488091 loss:9.862924
+2022-11-14 08:59:52,660 - INFO - main.py - train - 89 - 【train】 epoch:23/50 step:138/300 detect_loss:0.377741 correct_loss:9.472713 loss:9.850455
+2022-11-14 08:59:54,426 - INFO - main.py - train - 89 - 【train】 epoch:24/50 step:139/300 detect_loss:0.377285 correct_loss:9.487275 loss:9.864560
+2022-11-14 09:00:04,259 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:00:04,259 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6%, d_recall:98.61%, d_f1:3.15%
+2022-11-14 09:00:04,259 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:00:04,260 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:00:04,262 - INFO - main.py - train - 105 - 【dev】 loss:157.606731 d_precision:0.0160 d_recall:0.9861 d_f1:0.0315 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:00:05,870 - INFO - main.py - train - 89 - 【train】 epoch:24/50 step:140/300 detect_loss:0.380087 correct_loss:9.469942 loss:9.850029
+2022-11-14 09:00:07,492 - INFO - main.py - train - 89 - 【train】 epoch:24/50 step:141/300 detect_loss:0.380474 correct_loss:9.477330 loss:9.857804
+2022-11-14 09:00:09,105 - INFO - main.py - train - 89 - 【train】 epoch:24/50 step:142/300 detect_loss:0.383305 correct_loss:9.480253 loss:9.863559
+2022-11-14 09:00:10,713 - INFO - main.py - train - 89 - 【train】 epoch:24/50 step:143/300 detect_loss:0.380862 correct_loss:9.482857 loss:9.863719
+2022-11-14 09:00:11,493 - INFO - main.py - train - 89 - 【train】 epoch:24/50 step:144/300 detect_loss:0.379471 correct_loss:9.482025 loss:9.861496
+2022-11-14 09:00:13,266 - INFO - main.py - train - 89 - 【train】 epoch:25/50 step:145/300 detect_loss:0.379313 correct_loss:9.471952 loss:9.851265
+2022-11-14 09:00:14,888 - INFO - main.py - train - 89 - 【train】 epoch:25/50 step:146/300 detect_loss:0.380932 correct_loss:9.463347 loss:9.844279
+2022-11-14 09:00:16,497 - INFO - main.py - train - 89 - 【train】 epoch:25/50 step:147/300 detect_loss:0.380720 correct_loss:9.459261 loss:9.839981
+2022-11-14 09:00:18,115 - INFO - main.py - train - 89 - 【train】 epoch:25/50 step:148/300 detect_loss:0.365980 correct_loss:9.448817 loss:9.814797
+2022-11-14 09:00:19,736 - INFO - main.py - train - 89 - 【train】 epoch:25/50 step:149/300 detect_loss:0.367400 correct_loss:9.456408 loss:9.823807
+2022-11-14 09:00:29,560 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:00:29,560 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.6%, d_recall:98.2%, d_f1:3.15%
+2022-11-14 09:00:29,560 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:00:29,560 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:00:29,562 - INFO - main.py - train - 105 - 【dev】 loss:156.986727 d_precision:0.0160 d_recall:0.9820 d_f1:0.0315 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:00:30,317 - INFO - main.py - train - 89 - 【train】 epoch:25/50 step:150/300 detect_loss:0.385054 correct_loss:9.464937 loss:9.849991
+2022-11-14 09:00:32,098 - INFO - main.py - train - 89 - 【train】 epoch:26/50 step:151/300 detect_loss:0.370004 correct_loss:9.430699 loss:9.800703
+2022-11-14 09:00:33,725 - INFO - main.py - train - 89 - 【train】 epoch:26/50 step:152/300 detect_loss:0.383814 correct_loss:9.468878 loss:9.852692
+2022-11-14 09:00:35,325 - INFO - main.py - train - 89 - 【train】 epoch:26/50 step:153/300 detect_loss:0.375553 correct_loss:9.450536 loss:9.826089
+2022-11-14 09:00:36,958 - INFO - main.py - train - 89 - 【train】 epoch:26/50 step:154/300 detect_loss:0.371709 correct_loss:9.426274 loss:9.797983
+2022-11-14 09:00:38,563 - INFO - main.py - train - 89 - 【train】 epoch:26/50 step:155/300 detect_loss:0.371484 correct_loss:9.440644 loss:9.812128
+2022-11-14 09:00:39,343 - INFO - main.py - train - 89 - 【train】 epoch:26/50 step:156/300 detect_loss:0.359152 correct_loss:9.407475 loss:9.766627
+2022-11-14 09:00:41,097 - INFO - main.py - train - 89 - 【train】 epoch:27/50 step:157/300 detect_loss:0.375745 correct_loss:9.444114 loss:9.819859
+2022-11-14 09:00:42,719 - INFO - main.py - train - 89 - 【train】 epoch:27/50 step:158/300 detect_loss:0.365198 correct_loss:9.421058 loss:9.786256
+2022-11-14 09:00:44,333 - INFO - main.py - train - 89 - 【train】 epoch:27/50 step:159/300 detect_loss:0.362438 correct_loss:9.415087 loss:9.777524
+2022-11-14 09:00:54,188 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:00:54,189 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.59%, d_recall:97.95%, d_f1:3.1300000000000003%
+2022-11-14 09:00:54,189 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:00:54,189 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:00:54,191 - INFO - main.py - train - 105 - 【dev】 loss:156.406600 d_precision:0.0159 d_recall:0.9795 d_f1:0.0313 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:00:55,794 - INFO - main.py - train - 89 - 【train】 epoch:27/50 step:160/300 detect_loss:0.369095 correct_loss:9.413326 loss:9.782421
+2022-11-14 09:00:57,421 - INFO - main.py - train - 89 - 【train】 epoch:27/50 step:161/300 detect_loss:0.368972 correct_loss:9.423583 loss:9.792555
+2022-11-14 09:00:58,203 - INFO - main.py - train - 89 - 【train】 epoch:27/50 step:162/300 detect_loss:0.372356 correct_loss:9.415865 loss:9.788221
+2022-11-14 09:00:59,981 - INFO - main.py - train - 89 - 【train】 epoch:28/50 step:163/300 detect_loss:0.371969 correct_loss:9.402008 loss:9.773977
+2022-11-14 09:01:01,611 - INFO - main.py - train - 89 - 【train】 epoch:28/50 step:164/300 detect_loss:0.363604 correct_loss:9.419014 loss:9.782619
+2022-11-14 09:01:03,212 - INFO - main.py - train - 89 - 【train】 epoch:28/50 step:165/300 detect_loss:0.368617 correct_loss:9.400996 loss:9.769613
+2022-11-14 09:01:04,835 - INFO - main.py - train - 89 - 【train】 epoch:28/50 step:166/300 detect_loss:0.375716 correct_loss:9.401776 loss:9.777492
+2022-11-14 09:01:06,442 - INFO - main.py - train - 89 - 【train】 epoch:28/50 step:167/300 detect_loss:0.356732 correct_loss:9.401052 loss:9.757785
+2022-11-14 09:01:07,221 - INFO - main.py - train - 89 - 【train】 epoch:28/50 step:168/300 detect_loss:0.376209 correct_loss:9.397062 loss:9.773272
+2022-11-14 09:01:09,002 - INFO - main.py - train - 89 - 【train】 epoch:29/50 step:169/300 detect_loss:0.361321 correct_loss:9.392150 loss:9.753471
+2022-11-14 09:01:18,854 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:01:18,855 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.59%, d_recall:97.61999999999999%, d_f1:3.1300000000000003%
+2022-11-14 09:01:18,855 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:01:18,855 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:01:18,857 - INFO - main.py - train - 105 - 【dev】 loss:155.865843 d_precision:0.0159 d_recall:0.9762 d_f1:0.0313 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:01:20,460 - INFO - main.py - train - 89 - 【train】 epoch:29/50 step:170/300 detect_loss:0.377973 correct_loss:9.396510 loss:9.774484
+2022-11-14 09:01:22,082 - INFO - main.py - train - 89 - 【train】 epoch:29/50 step:171/300 detect_loss:0.363569 correct_loss:9.389194 loss:9.752763
+2022-11-14 09:01:23,695 - INFO - main.py - train - 89 - 【train】 epoch:29/50 step:172/300 detect_loss:0.365630 correct_loss:9.395328 loss:9.760957
+2022-11-14 09:01:25,323 - INFO - main.py - train - 89 - 【train】 epoch:29/50 step:173/300 detect_loss:0.360118 correct_loss:9.364934 loss:9.725052
+2022-11-14 09:01:26,103 - INFO - main.py - train - 89 - 【train】 epoch:29/50 step:174/300 detect_loss:0.363309 correct_loss:9.379091 loss:9.742400
+2022-11-14 09:01:27,883 - INFO - main.py - train - 89 - 【train】 epoch:30/50 step:175/300 detect_loss:0.368475 correct_loss:9.378979 loss:9.747455
+2022-11-14 09:01:29,521 - INFO - main.py - train - 89 - 【train】 epoch:30/50 step:176/300 detect_loss:0.359839 correct_loss:9.379280 loss:9.739120
+2022-11-14 09:01:31,133 - INFO - main.py - train - 89 - 【train】 epoch:30/50 step:177/300 detect_loss:0.369448 correct_loss:9.378704 loss:9.748153
+2022-11-14 09:01:32,750 - INFO - main.py - train - 89 - 【train】 epoch:30/50 step:178/300 detect_loss:0.353035 correct_loss:9.367660 loss:9.720695
+2022-11-14 09:01:34,366 - INFO - main.py - train - 89 - 【train】 epoch:30/50 step:179/300 detect_loss:0.365367 correct_loss:9.374002 loss:9.739368
+2022-11-14 09:01:44,221 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:01:44,222 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.59%, d_recall:96.96000000000001%, d_f1:3.1300000000000003%
+2022-11-14 09:01:44,222 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:01:44,222 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:01:44,224 - INFO - main.py - train - 105 - 【dev】 loss:155.352192 d_precision:0.0159 d_recall:0.9696 d_f1:0.0313 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:01:44,978 - INFO - main.py - train - 89 - 【train】 epoch:30/50 step:180/300 detect_loss:0.361808 correct_loss:9.344392 loss:9.706200
+2022-11-14 09:01:46,752 - INFO - main.py - train - 89 - 【train】 epoch:31/50 step:181/300 detect_loss:0.362482 correct_loss:9.368112 loss:9.730594
+2022-11-14 09:01:48,392 - INFO - main.py - train - 89 - 【train】 epoch:31/50 step:182/300 detect_loss:0.362441 correct_loss:9.361236 loss:9.723676
+2022-11-14 09:01:50,016 - INFO - main.py - train - 89 - 【train】 epoch:31/50 step:183/300 detect_loss:0.358023 correct_loss:9.358450 loss:9.716473
+2022-11-14 09:01:51,647 - INFO - main.py - train - 89 - 【train】 epoch:31/50 step:184/300 detect_loss:0.366755 correct_loss:9.365436 loss:9.732190
+2022-11-14 09:01:53,266 - INFO - main.py - train - 89 - 【train】 epoch:31/50 step:185/300 detect_loss:0.353303 correct_loss:9.346948 loss:9.700251
+2022-11-14 09:01:54,048 - INFO - main.py - train - 89 - 【train】 epoch:31/50 step:186/300 detect_loss:0.365594 correct_loss:9.338624 loss:9.704218
+2022-11-14 09:01:55,835 - INFO - main.py - train - 89 - 【train】 epoch:32/50 step:187/300 detect_loss:0.362340 correct_loss:9.340212 loss:9.702552
+2022-11-14 09:01:57,471 - INFO - main.py - train - 89 - 【train】 epoch:32/50 step:188/300 detect_loss:0.356695 correct_loss:9.331264 loss:9.687959
+2022-11-14 09:01:59,081 - INFO - main.py - train - 89 - 【train】 epoch:32/50 step:189/300 detect_loss:0.364182 correct_loss:9.333512 loss:9.697695
+2022-11-14 09:02:08,975 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:02:08,976 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.58%, d_recall:96.23%, d_f1:3.11%
+2022-11-14 09:02:08,976 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:02:08,976 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:02:08,978 - INFO - main.py - train - 105 - 【dev】 loss:154.895917 d_precision:0.0158 d_recall:0.9623 d_f1:0.0311 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:02:10,575 - INFO - main.py - train - 89 - 【train】 epoch:32/50 step:190/300 detect_loss:0.355258 correct_loss:9.352807 loss:9.708065
+2022-11-14 09:02:12,202 - INFO - main.py - train - 89 - 【train】 epoch:32/50 step:191/300 detect_loss:0.349690 correct_loss:9.344391 loss:9.694080
+2022-11-14 09:02:12,981 - INFO - main.py - train - 89 - 【train】 epoch:32/50 step:192/300 detect_loss:0.355001 correct_loss:9.330563 loss:9.685563
+2022-11-14 09:02:14,771 - INFO - main.py - train - 89 - 【train】 epoch:33/50 step:193/300 detect_loss:0.362851 correct_loss:9.341229 loss:9.704081
+2022-11-14 09:02:16,408 - INFO - main.py - train - 89 - 【train】 epoch:33/50 step:194/300 detect_loss:0.366005 correct_loss:9.345695 loss:9.711699
+2022-11-14 09:02:18,030 - INFO - main.py - train - 89 - 【train】 epoch:33/50 step:195/300 detect_loss:0.350762 correct_loss:9.328275 loss:9.679037
+2022-11-14 09:02:19,656 - INFO - main.py - train - 89 - 【train】 epoch:33/50 step:196/300 detect_loss:0.352625 correct_loss:9.319561 loss:9.672186
+2022-11-14 09:02:21,272 - INFO - main.py - train - 89 - 【train】 epoch:33/50 step:197/300 detect_loss:0.348905 correct_loss:9.315178 loss:9.664083
+2022-11-14 09:02:22,053 - INFO - main.py - train - 89 - 【train】 epoch:33/50 step:198/300 detect_loss:0.361278 correct_loss:9.324889 loss:9.686168
+2022-11-14 09:02:23,837 - INFO - main.py - train - 89 - 【train】 epoch:34/50 step:199/300 detect_loss:0.353327 correct_loss:9.314106 loss:9.667433
+2022-11-14 09:02:33,745 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:02:33,745 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.5699999999999998%, d_recall:95.57%, d_f1:3.09%
+2022-11-14 09:02:33,745 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:02:33,745 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:02:33,747 - INFO - main.py - train - 105 - 【dev】 loss:154.459016 d_precision:0.0157 d_recall:0.9557 d_f1:0.0309 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:02:35,357 - INFO - main.py - train - 89 - 【train】 epoch:34/50 step:200/300 detect_loss:0.349554 correct_loss:9.317242 loss:9.666796
+2022-11-14 09:02:36,983 - INFO - main.py - train - 89 - 【train】 epoch:34/50 step:201/300 detect_loss:0.349381 correct_loss:9.327935 loss:9.677316
+2022-11-14 09:02:38,595 - INFO - main.py - train - 89 - 【train】 epoch:34/50 step:202/300 detect_loss:0.357483 correct_loss:9.317893 loss:9.675377
+2022-11-14 09:02:40,223 - INFO - main.py - train - 89 - 【train】 epoch:34/50 step:203/300 detect_loss:0.359785 correct_loss:9.310781 loss:9.670567
+2022-11-14 09:02:41,010 - INFO - main.py - train - 89 - 【train】 epoch:34/50 step:204/300 detect_loss:0.343093 correct_loss:9.308129 loss:9.651222
+2022-11-14 09:02:42,798 - INFO - main.py - train - 89 - 【train】 epoch:35/50 step:205/300 detect_loss:0.357031 correct_loss:9.311527 loss:9.668558
+2022-11-14 09:02:44,441 - INFO - main.py - train - 89 - 【train】 epoch:35/50 step:206/300 detect_loss:0.345406 correct_loss:9.316038 loss:9.661445
+2022-11-14 09:02:46,056 - INFO - main.py - train - 89 - 【train】 epoch:35/50 step:207/300 detect_loss:0.351501 correct_loss:9.292943 loss:9.644444
+2022-11-14 09:02:47,680 - INFO - main.py - train - 89 - 【train】 epoch:35/50 step:208/300 detect_loss:0.352352 correct_loss:9.285826 loss:9.638178
+2022-11-14 09:02:49,298 - INFO - main.py - train - 89 - 【train】 epoch:35/50 step:209/300 detect_loss:0.350190 correct_loss:9.306473 loss:9.656663
+2022-11-14 09:02:59,273 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:02:59,273 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.5699999999999998%, d_recall:95.08%, d_f1:3.09%
+2022-11-14 09:02:59,274 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:02:59,274 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:02:59,276 - INFO - main.py - train - 105 - 【dev】 loss:154.056719 d_precision:0.0157 d_recall:0.9508 d_f1:0.0309 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:03:00,037 - INFO - main.py - train - 89 - 【train】 epoch:35/50 step:210/300 detect_loss:0.352120 correct_loss:9.305252 loss:9.657372
+2022-11-14 09:03:01,892 - INFO - main.py - train - 89 - 【train】 epoch:36/50 step:211/300 detect_loss:0.348988 correct_loss:9.296892 loss:9.645881
+2022-11-14 09:03:03,521 - INFO - main.py - train - 89 - 【train】 epoch:36/50 step:212/300 detect_loss:0.349190 correct_loss:9.283834 loss:9.633024
+2022-11-14 09:03:05,137 - INFO - main.py - train - 89 - 【train】 epoch:36/50 step:213/300 detect_loss:0.349952 correct_loss:9.307082 loss:9.657034
+2022-11-14 09:03:06,768 - INFO - main.py - train - 89 - 【train】 epoch:36/50 step:214/300 detect_loss:0.356754 correct_loss:9.282741 loss:9.639494
+2022-11-14 09:03:08,392 - INFO - main.py - train - 89 - 【train】 epoch:36/50 step:215/300 detect_loss:0.348460 correct_loss:9.276439 loss:9.624898
+2022-11-14 09:03:09,173 - INFO - main.py - train - 89 - 【train】 epoch:36/50 step:216/300 detect_loss:0.348787 correct_loss:9.276254 loss:9.625040
+2022-11-14 09:03:10,952 - INFO - main.py - train - 89 - 【train】 epoch:37/50 step:217/300 detect_loss:0.350181 correct_loss:9.276073 loss:9.626254
+2022-11-14 09:03:12,575 - INFO - main.py - train - 89 - 【train】 epoch:37/50 step:218/300 detect_loss:0.345462 correct_loss:9.285830 loss:9.631291
+2022-11-14 09:03:14,177 - INFO - main.py - train - 89 - 【train】 epoch:37/50 step:219/300 detect_loss:0.343119 correct_loss:9.290095 loss:9.633214
+2022-11-14 09:03:23,992 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:03:23,993 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.5599999999999998%, d_recall:94.08999999999999%, d_f1:3.0700000000000003%
+2022-11-14 09:03:23,993 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:03:23,993 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:03:23,995 - INFO - main.py - train - 105 - 【dev】 loss:153.693317 d_precision:0.0156 d_recall:0.9409 d_f1:0.0307 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:03:25,589 - INFO - main.py - train - 89 - 【train】 epoch:37/50 step:220/300 detect_loss:0.353371 correct_loss:9.276424 loss:9.629795
+2022-11-14 09:03:27,213 - INFO - main.py - train - 89 - 【train】 epoch:37/50 step:221/300 detect_loss:0.351645 correct_loss:9.261188 loss:9.612832
+2022-11-14 09:03:27,996 - INFO - main.py - train - 89 - 【train】 epoch:37/50 step:222/300 detect_loss:0.351423 correct_loss:9.280335 loss:9.631759
+2022-11-14 09:03:29,773 - INFO - main.py - train - 89 - 【train】 epoch:38/50 step:223/300 detect_loss:0.346916 correct_loss:9.269346 loss:9.616262
+2022-11-14 09:03:31,404 - INFO - main.py - train - 89 - 【train】 epoch:38/50 step:224/300 detect_loss:0.347846 correct_loss:9.280222 loss:9.628068
+2022-11-14 09:03:33,017 - INFO - main.py - train - 89 - 【train】 epoch:38/50 step:225/300 detect_loss:0.344046 correct_loss:9.262436 loss:9.606482
+2022-11-14 09:03:34,634 - INFO - main.py - train - 89 - 【train】 epoch:38/50 step:226/300 detect_loss:0.349913 correct_loss:9.270122 loss:9.620034
+2022-11-14 09:03:36,249 - INFO - main.py - train - 89 - 【train】 epoch:38/50 step:227/300 detect_loss:0.347775 correct_loss:9.264658 loss:9.612432
+2022-11-14 09:03:37,030 - INFO - main.py - train - 89 - 【train】 epoch:38/50 step:228/300 detect_loss:0.347999 correct_loss:9.261814 loss:9.609813
+2022-11-14 09:03:38,818 - INFO - main.py - train - 89 - 【train】 epoch:39/50 step:229/300 detect_loss:0.344115 correct_loss:9.249854 loss:9.593969
+2022-11-14 09:03:48,632 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:03:48,632 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.5599999999999998%, d_recall:93.67999999999999%, d_f1:3.0700000000000003%
+2022-11-14 09:03:48,632 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:03:48,633 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:03:48,635 - INFO - main.py - train - 105 - 【dev】 loss:153.377794 d_precision:0.0156 d_recall:0.9368 d_f1:0.0307 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:03:50,234 - INFO - main.py - train - 89 - 【train】 epoch:39/50 step:230/300 detect_loss:0.347865 correct_loss:9.257193 loss:9.605058
+2022-11-14 09:03:51,861 - INFO - main.py - train - 89 - 【train】 epoch:39/50 step:231/300 detect_loss:0.346143 correct_loss:9.265062 loss:9.611206
+2022-11-14 09:03:53,459 - INFO - main.py - train - 89 - 【train】 epoch:39/50 step:232/300 detect_loss:0.349774 correct_loss:9.267112 loss:9.616886
+2022-11-14 09:03:55,079 - INFO - main.py - train - 89 - 【train】 epoch:39/50 step:233/300 detect_loss:0.345775 correct_loss:9.257184 loss:9.602959
+2022-11-14 09:03:55,858 - INFO - main.py - train - 89 - 【train】 epoch:39/50 step:234/300 detect_loss:0.338239 correct_loss:9.262592 loss:9.600831
+2022-11-14 09:03:57,635 - INFO - main.py - train - 89 - 【train】 epoch:40/50 step:235/300 detect_loss:0.347918 correct_loss:9.257520 loss:9.605437
+2022-11-14 09:03:59,265 - INFO - main.py - train - 89 - 【train】 epoch:40/50 step:236/300 detect_loss:0.348215 correct_loss:9.253778 loss:9.601993
+2022-11-14 09:04:00,872 - INFO - main.py - train - 89 - 【train】 epoch:40/50 step:237/300 detect_loss:0.351562 correct_loss:9.248399 loss:9.599960
+2022-11-14 09:04:02,501 - INFO - main.py - train - 89 - 【train】 epoch:40/50 step:238/300 detect_loss:0.337830 correct_loss:9.237535 loss:9.575365
+2022-11-14 09:04:04,121 - INFO - main.py - train - 89 - 【train】 epoch:40/50 step:239/300 detect_loss:0.341461 correct_loss:9.241379 loss:9.582840
+2022-11-14 09:04:13,963 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:04:13,964 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.5599999999999998%, d_recall:92.95%, d_f1:3.0700000000000003%
+2022-11-14 09:04:13,964 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:04:13,964 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:04:13,966 - INFO - main.py - train - 105 - 【dev】 loss:153.099897 d_precision:0.0156 d_recall:0.9295 d_f1:0.0307 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:04:14,724 - INFO - main.py - train - 89 - 【train】 epoch:40/50 step:240/300 detect_loss:0.342568 correct_loss:9.256504 loss:9.599072
+2022-11-14 09:04:16,495 - INFO - main.py - train - 89 - 【train】 epoch:41/50 step:241/300 detect_loss:0.346859 correct_loss:9.239328 loss:9.586187
+2022-11-14 09:04:18,122 - INFO - main.py - train - 89 - 【train】 epoch:41/50 step:242/300 detect_loss:0.340444 correct_loss:9.241075 loss:9.581519
+2022-11-14 09:04:19,726 - INFO - main.py - train - 89 - 【train】 epoch:41/50 step:243/300 detect_loss:0.337212 correct_loss:9.249192 loss:9.586404
+2022-11-14 09:04:21,340 - INFO - main.py - train - 89 - 【train】 epoch:41/50 step:244/300 detect_loss:0.343940 correct_loss:9.246076 loss:9.590015
+2022-11-14 09:04:22,953 - INFO - main.py - train - 89 - 【train】 epoch:41/50 step:245/300 detect_loss:0.346200 correct_loss:9.234982 loss:9.581182
+2022-11-14 09:04:23,730 - INFO - main.py - train - 89 - 【train】 epoch:41/50 step:246/300 detect_loss:0.353600 correct_loss:9.242034 loss:9.595634
+2022-11-14 09:04:25,506 - INFO - main.py - train - 89 - 【train】 epoch:42/50 step:247/300 detect_loss:0.340262 correct_loss:9.233329 loss:9.573591
+2022-11-14 09:04:27,139 - INFO - main.py - train - 89 - 【train】 epoch:42/50 step:248/300 detect_loss:0.341568 correct_loss:9.233665 loss:9.575233
+2022-11-14 09:04:28,745 - INFO - main.py - train - 89 - 【train】 epoch:42/50 step:249/300 detect_loss:0.351746 correct_loss:9.234304 loss:9.586050
+2022-11-14 09:04:38,567 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:04:38,568 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.55%, d_recall:92.12%, d_f1:3.05%
+2022-11-14 09:04:38,568 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:04:38,568 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:04:38,570 - INFO - main.py - train - 105 - 【dev】 loss:152.867782 d_precision:0.0155 d_recall:0.9212 d_f1:0.0305 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:04:40,173 - INFO - main.py - train - 89 - 【train】 epoch:42/50 step:250/300 detect_loss:0.347251 correct_loss:9.241035 loss:9.588286
+2022-11-14 09:04:41,798 - INFO - main.py - train - 89 - 【train】 epoch:42/50 step:251/300 detect_loss:0.338225 correct_loss:9.231255 loss:9.569480
+2022-11-14 09:04:42,577 - INFO - main.py - train - 89 - 【train】 epoch:42/50 step:252/300 detect_loss:0.336966 correct_loss:9.225236 loss:9.562202
+2022-11-14 09:04:44,355 - INFO - main.py - train - 89 - 【train】 epoch:43/50 step:253/300 detect_loss:0.339226 correct_loss:9.228003 loss:9.567228
+2022-11-14 09:04:45,979 - INFO - main.py - train - 89 - 【train】 epoch:43/50 step:254/300 detect_loss:0.343068 correct_loss:9.233027 loss:9.576096
+2022-11-14 09:04:47,595 - INFO - main.py - train - 89 - 【train】 epoch:43/50 step:255/300 detect_loss:0.344566 correct_loss:9.223757 loss:9.568323
+2022-11-14 09:04:49,211 - INFO - main.py - train - 89 - 【train】 epoch:43/50 step:256/300 detect_loss:0.340547 correct_loss:9.242541 loss:9.583088
+2022-11-14 09:04:50,826 - INFO - main.py - train - 89 - 【train】 epoch:43/50 step:257/300 detect_loss:0.341625 correct_loss:9.219394 loss:9.561019
+2022-11-14 09:04:51,606 - INFO - main.py - train - 89 - 【train】 epoch:43/50 step:258/300 detect_loss:0.333868 correct_loss:9.209340 loss:9.543208
+2022-11-14 09:04:53,403 - INFO - main.py - train - 89 - 【train】 epoch:44/50 step:259/300 detect_loss:0.344381 correct_loss:9.214627 loss:9.559009
+2022-11-14 09:05:03,251 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:05:03,251 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.55%, d_recall:91.55%, d_f1:3.05%
+2022-11-14 09:05:03,251 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:05:03,251 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:05:03,253 - INFO - main.py - train - 105 - 【dev】 loss:152.674856 d_precision:0.0155 d_recall:0.9155 d_f1:0.0305 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:05:04,854 - INFO - main.py - train - 89 - 【train】 epoch:44/50 step:260/300 detect_loss:0.341232 correct_loss:9.232456 loss:9.573688
+2022-11-14 09:05:06,485 - INFO - main.py - train - 89 - 【train】 epoch:44/50 step:261/300 detect_loss:0.339689 correct_loss:9.199307 loss:9.538996
+2022-11-14 09:05:08,098 - INFO - main.py - train - 89 - 【train】 epoch:44/50 step:262/300 detect_loss:0.333511 correct_loss:9.235810 loss:9.569322
+2022-11-14 09:05:09,718 - INFO - main.py - train - 89 - 【train】 epoch:44/50 step:263/300 detect_loss:0.340191 correct_loss:9.234591 loss:9.574782
+2022-11-14 09:05:10,496 - INFO - main.py - train - 89 - 【train】 epoch:44/50 step:264/300 detect_loss:0.346631 correct_loss:9.194820 loss:9.541451
+2022-11-14 09:05:12,269 - INFO - main.py - train - 89 - 【train】 epoch:45/50 step:265/300 detect_loss:0.339401 correct_loss:9.219820 loss:9.559221
+2022-11-14 09:05:13,899 - INFO - main.py - train - 89 - 【train】 epoch:45/50 step:266/300 detect_loss:0.338549 correct_loss:9.216673 loss:9.555222
+2022-11-14 09:05:15,511 - INFO - main.py - train - 89 - 【train】 epoch:45/50 step:267/300 detect_loss:0.343873 correct_loss:9.203704 loss:9.547577
+2022-11-14 09:05:17,134 - INFO - main.py - train - 89 - 【train】 epoch:45/50 step:268/300 detect_loss:0.338732 correct_loss:9.212902 loss:9.551634
+2022-11-14 09:05:18,759 - INFO - main.py - train - 89 - 【train】 epoch:45/50 step:269/300 detect_loss:0.337725 correct_loss:9.221210 loss:9.558936
+2022-11-14 09:05:28,623 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:05:28,624 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.55%, d_recall:91.22%, d_f1:3.05%
+2022-11-14 09:05:28,624 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:05:28,624 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 1219
+2022-11-14 09:05:28,626 - INFO - main.py - train - 105 - 【dev】 loss:152.524337 d_precision:0.0155 d_recall:0.9122 d_f1:0.0305 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:05:29,382 - INFO - main.py - train - 89 - 【train】 epoch:45/50 step:270/300 detect_loss:0.348000 correct_loss:9.216380 loss:9.564380
+2022-11-14 09:26:07,202 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 09:26:07,225 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 09:26:07,261 - INFO - main.py - <module> - 383 - 使用【cuda】
+2022-11-14 09:26:13,481 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:1/540 detect_loss:0.480498 correct_loss:7.107940 loss:7.588438
+2022-11-14 09:26:14,618 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:2/540 detect_loss:0.468806 correct_loss:7.095250 loss:7.564056
+2022-11-14 09:26:15,760 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:3/540 detect_loss:0.477768 correct_loss:7.102239 loss:7.580008
+2022-11-14 09:26:16,895 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:4/540 detect_loss:0.478168 correct_loss:7.083609 loss:7.561777
+2022-11-14 09:26:18,029 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:5/540 detect_loss:0.486549 correct_loss:7.081086 loss:7.567635
+2022-11-14 09:26:19,166 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:6/540 detect_loss:0.481181 correct_loss:7.085520 loss:7.566701
+2022-11-14 09:26:20,306 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:7/540 detect_loss:0.483629 correct_loss:7.080747 loss:7.564376
+2022-11-14 09:26:21,442 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:8/540 detect_loss:0.479742 correct_loss:7.086166 loss:7.565908
+2022-11-14 09:26:22,582 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:9/540 detect_loss:0.487590 correct_loss:7.087151 loss:7.574740
+2022-11-14 09:26:23,742 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:10/540 detect_loss:0.485951 correct_loss:7.092012 loss:7.577963
+2022-11-14 09:26:24,913 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:11/540 detect_loss:0.475360 correct_loss:7.095112 loss:7.570472
+2022-11-14 09:26:26,071 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:12/540 detect_loss:0.474640 correct_loss:7.088600 loss:7.563241
+2022-11-14 09:26:27,236 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:13/540 detect_loss:0.480422 correct_loss:7.069227 loss:7.549649
+2022-11-14 09:26:28,406 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:14/540 detect_loss:0.477610 correct_loss:7.074890 loss:7.552500
+2022-11-14 09:26:29,574 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:15/540 detect_loss:0.476357 correct_loss:7.084244 loss:7.560601
+2022-11-14 09:26:30,733 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:16/540 detect_loss:0.468883 correct_loss:7.084011 loss:7.552894
+2022-11-14 09:26:31,889 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:17/540 detect_loss:0.488231 correct_loss:7.092234 loss:7.580465
+2022-11-14 09:26:33,046 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:18/540 detect_loss:0.473732 correct_loss:7.093441 loss:7.567172
+2022-11-14 09:26:34,253 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:19/540 detect_loss:0.475130 correct_loss:7.098277 loss:7.573407
+2022-11-14 09:26:35,418 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:20/540 detect_loss:0.475016 correct_loss:7.050216 loss:7.525232
+2022-11-14 09:26:36,579 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:21/540 detect_loss:0.473195 correct_loss:7.080016 loss:7.553210
+2022-11-14 09:26:37,759 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:22/540 detect_loss:0.469129 correct_loss:7.056893 loss:7.526022
+2022-11-14 09:26:38,933 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:23/540 detect_loss:0.479667 correct_loss:7.086685 loss:7.566352
+2022-11-14 09:26:40,107 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:24/540 detect_loss:0.478510 correct_loss:7.068399 loss:7.546909
+2022-11-14 09:26:41,290 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:25/540 detect_loss:0.469694 correct_loss:7.061603 loss:7.531297
+2022-11-14 09:26:42,460 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:26/540 detect_loss:0.467012 correct_loss:7.064243 loss:7.531255
+2022-11-14 09:26:43,653 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:27/540 detect_loss:0.477525 correct_loss:7.056255 loss:7.533780
+2022-11-14 09:26:44,881 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:28/540 detect_loss:0.467883 correct_loss:7.065870 loss:7.533753
+2022-11-14 09:26:46,118 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:29/540 detect_loss:0.475371 correct_loss:7.050568 loss:7.525939
+2022-11-14 09:26:47,393 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:30/540 detect_loss:0.467289 correct_loss:7.049087 loss:7.516375
+2022-11-14 09:26:48,597 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:31/540 detect_loss:0.473963 correct_loss:7.049786 loss:7.523749
+2022-11-14 09:26:49,779 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:32/540 detect_loss:0.480216 correct_loss:7.063666 loss:7.543882
+2022-11-14 09:26:50,963 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:33/540 detect_loss:0.474881 correct_loss:7.042904 loss:7.517785
+2022-11-14 09:26:52,154 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:34/540 detect_loss:0.464777 correct_loss:7.046065 loss:7.510842
+2022-11-14 09:26:53,345 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:35/540 detect_loss:0.463277 correct_loss:7.047387 loss:7.510663
+2022-11-14 09:26:54,542 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:36/540 detect_loss:0.460726 correct_loss:7.023903 loss:7.484629
+2022-11-14 09:26:55,737 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:37/540 detect_loss:0.465504 correct_loss:7.044964 loss:7.510468
+2022-11-14 09:26:56,934 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:38/540 detect_loss:0.479304 correct_loss:7.023431 loss:7.502735
+2022-11-14 09:26:58,136 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:39/540 detect_loss:0.456021 correct_loss:7.014463 loss:7.470485
+2022-11-14 09:26:59,328 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:40/540 detect_loss:0.458960 correct_loss:7.037481 loss:7.496441
+2022-11-14 09:27:00,529 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:41/540 detect_loss:0.459334 correct_loss:7.017288 loss:7.476623
+2022-11-14 09:27:01,723 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:42/540 detect_loss:0.444309 correct_loss:7.031990 loss:7.476299
+2022-11-14 09:27:02,921 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:43/540 detect_loss:0.456402 correct_loss:6.999590 loss:7.455992
+2022-11-14 09:27:04,118 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:44/540 detect_loss:0.456832 correct_loss:7.033231 loss:7.490062
+2022-11-14 09:27:05,325 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:45/540 detect_loss:0.454177 correct_loss:7.004694 loss:7.458870
+2022-11-14 09:27:06,525 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:46/540 detect_loss:0.452369 correct_loss:6.998401 loss:7.450770
+2022-11-14 09:27:07,721 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:47/540 detect_loss:0.459030 correct_loss:7.016180 loss:7.475210
+2022-11-14 09:27:08,927 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:48/540 detect_loss:0.461299 correct_loss:6.999121 loss:7.460420
+2022-11-14 09:27:10,129 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:49/540 detect_loss:0.455435 correct_loss:7.014068 loss:7.469502
+2022-11-14 09:27:17,654 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:27:17,654 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.41%, d_recall:99.48%, d_f1:2.78%
+2022-11-14 09:27:17,655 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.13%, c_f1:0.0%
+2022-11-14 09:27:17,655 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 767
+2022-11-14 09:27:17,656 - INFO - main.py - train - 105 - 【dev】 loss:126.373130 d_precision:0.0141 d_recall:0.9948 d_f1:0.0278 c_precision:0.0000 c_recall:0.0013 c_f1:0.0000
+2022-11-14 09:27:18,859 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:50/540 detect_loss:0.463848 correct_loss:6.997994 loss:7.461842
+2022-11-14 09:27:20,064 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:51/540 detect_loss:0.472165 correct_loss:6.986074 loss:7.458240
+2022-11-14 09:27:21,273 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:52/540 detect_loss:0.457110 correct_loss:6.979241 loss:7.436351
+2022-11-14 09:27:22,526 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:53/540 detect_loss:0.455839 correct_loss:6.978917 loss:7.434755
+2022-11-14 09:27:23,400 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:54/540 detect_loss:0.444543 correct_loss:6.973627 loss:7.418169
+2022-11-14 09:27:24,802 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:55/540 detect_loss:0.455663 correct_loss:6.967932 loss:7.423594
+2022-11-14 09:27:26,018 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:56/540 detect_loss:0.453640 correct_loss:6.963034 loss:7.416673
+2022-11-14 09:27:27,239 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:57/540 detect_loss:0.453895 correct_loss:6.966723 loss:7.420618
+2022-11-14 09:27:28,457 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:58/540 detect_loss:0.450925 correct_loss:6.970087 loss:7.421011
+2022-11-14 09:27:29,681 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:59/540 detect_loss:0.442600 correct_loss:6.941251 loss:7.383852
+2022-11-14 09:27:30,913 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:60/540 detect_loss:0.432447 correct_loss:6.947702 loss:7.380149
+2022-11-14 09:27:32,142 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:61/540 detect_loss:0.443683 correct_loss:6.929153 loss:7.372836
+2022-11-14 09:27:33,374 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:62/540 detect_loss:0.438183 correct_loss:6.915359 loss:7.353541
+2022-11-14 09:27:34,613 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:63/540 detect_loss:0.435247 correct_loss:6.914763 loss:7.350010
+2022-11-14 09:27:35,850 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:64/540 detect_loss:0.438841 correct_loss:6.930449 loss:7.369290
+2022-11-14 09:27:37,088 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:65/540 detect_loss:0.436728 correct_loss:6.917266 loss:7.353994
+2022-11-14 09:27:38,331 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:66/540 detect_loss:0.434085 correct_loss:6.907595 loss:7.341680
+2022-11-14 09:27:39,581 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:67/540 detect_loss:0.434425 correct_loss:6.902006 loss:7.336431
+2022-11-14 09:27:40,819 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:68/540 detect_loss:0.440923 correct_loss:6.898341 loss:7.339264
+2022-11-14 09:27:42,070 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:69/540 detect_loss:0.435470 correct_loss:6.908012 loss:7.343482
+2022-11-14 09:27:43,315 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:70/540 detect_loss:0.436783 correct_loss:6.902806 loss:7.339589
+2022-11-14 09:27:44,570 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:71/540 detect_loss:0.432770 correct_loss:6.879125 loss:7.311894
+2022-11-14 09:27:45,810 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:72/540 detect_loss:0.434278 correct_loss:6.888719 loss:7.322997
+2022-11-14 09:27:47,062 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:73/540 detect_loss:0.425604 correct_loss:6.869986 loss:7.295590
+2022-11-14 09:27:48,310 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:74/540 detect_loss:0.430410 correct_loss:6.862829 loss:7.293240
+2022-11-14 09:27:49,561 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:75/540 detect_loss:0.425011 correct_loss:6.882682 loss:7.307693
+2022-11-14 09:27:50,817 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:76/540 detect_loss:0.431563 correct_loss:6.857509 loss:7.289071
+2022-11-14 09:27:52,071 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:77/540 detect_loss:0.423902 correct_loss:6.838542 loss:7.262443
+2022-11-14 09:27:53,325 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:78/540 detect_loss:0.422270 correct_loss:6.872983 loss:7.295253
+2022-11-14 09:27:54,570 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:79/540 detect_loss:0.421125 correct_loss:6.843922 loss:7.265048
+2022-11-14 09:27:55,818 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:80/540 detect_loss:0.425536 correct_loss:6.839893 loss:7.265429
+2022-11-14 09:27:57,061 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:81/540 detect_loss:0.421336 correct_loss:6.847916 loss:7.269252
+2022-11-14 09:27:58,311 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:82/540 detect_loss:0.422305 correct_loss:6.834943 loss:7.257248
+2022-11-14 09:27:59,569 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:83/540 detect_loss:0.419423 correct_loss:6.826272 loss:7.245695
+2022-11-14 09:28:00,825 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:84/540 detect_loss:0.425893 correct_loss:6.820989 loss:7.246881
+2022-11-14 09:28:02,074 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:85/540 detect_loss:0.413929 correct_loss:6.820405 loss:7.234334
+2022-11-14 09:28:03,323 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:86/540 detect_loss:0.425095 correct_loss:6.835259 loss:7.260354
+2022-11-14 09:28:04,575 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:87/540 detect_loss:0.423957 correct_loss:6.818811 loss:7.242768
+2022-11-14 09:28:05,833 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:88/540 detect_loss:0.414263 correct_loss:6.776871 loss:7.191134
+2022-11-14 09:28:07,094 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:89/540 detect_loss:0.416705 correct_loss:6.807309 loss:7.224014
+2022-11-14 09:28:08,351 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:90/540 detect_loss:0.406440 correct_loss:6.793063 loss:7.199503
+2022-11-14 09:28:09,619 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:91/540 detect_loss:0.411786 correct_loss:6.792617 loss:7.204403
+2022-11-14 09:28:10,888 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:92/540 detect_loss:0.416693 correct_loss:6.792681 loss:7.209374
+2022-11-14 09:28:12,144 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:93/540 detect_loss:0.409308 correct_loss:6.792217 loss:7.201525
+2022-11-14 09:28:13,420 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:94/540 detect_loss:0.400514 correct_loss:6.771556 loss:7.172070
+2022-11-14 09:28:14,694 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:95/540 detect_loss:0.407599 correct_loss:6.795208 loss:7.202806
+2022-11-14 09:28:15,972 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:96/540 detect_loss:0.406468 correct_loss:6.770160 loss:7.176629
+2022-11-14 09:28:17,244 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:97/540 detect_loss:0.414451 correct_loss:6.761945 loss:7.176396
+2022-11-14 09:28:18,523 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:98/540 detect_loss:0.413060 correct_loss:6.743473 loss:7.156533
+2022-11-14 09:28:19,812 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:99/540 detect_loss:0.407942 correct_loss:6.757433 loss:7.165375
+2022-11-14 09:28:28,074 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:28:28,074 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.37%, d_recall:95.96000000000001%, d_f1:2.7%
+2022-11-14 09:28:28,075 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.13%, c_f1:0.0%
+2022-11-14 09:28:28,075 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 767
+2022-11-14 09:28:28,076 - INFO - main.py - train - 105 - 【dev】 loss:121.381445 d_precision:0.0137 d_recall:0.9596 d_f1:0.0270 c_precision:0.0000 c_recall:0.0013 c_f1:0.0000
+2022-11-14 09:28:29,362 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:100/540 detect_loss:0.403026 correct_loss:6.745555 loss:7.148582
+2022-11-14 09:28:30,650 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:101/540 detect_loss:0.401693 correct_loss:6.744025 loss:7.145718
+2022-11-14 09:28:31,942 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:102/540 detect_loss:0.415109 correct_loss:6.741600 loss:7.156709
+2022-11-14 09:28:33,240 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:103/540 detect_loss:0.398274 correct_loss:6.739602 loss:7.137876
+2022-11-14 09:28:34,540 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:104/540 detect_loss:0.392229 correct_loss:6.720059 loss:7.112288
+2022-11-14 09:28:35,831 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:105/540 detect_loss:0.398907 correct_loss:6.735672 loss:7.134579
+2022-11-14 09:28:37,116 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:106/540 detect_loss:0.411135 correct_loss:6.720891 loss:7.132027
+2022-11-14 09:28:38,407 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:107/540 detect_loss:0.399064 correct_loss:6.716605 loss:7.115669
+2022-11-14 09:28:39,335 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:108/540 detect_loss:0.405730 correct_loss:6.715310 loss:7.121040
+2022-11-14 09:28:40,787 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:109/540 detect_loss:0.397954 correct_loss:6.714538 loss:7.112493
+2022-11-14 09:28:42,073 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:110/540 detect_loss:0.404677 correct_loss:6.703118 loss:7.107795
+2022-11-14 09:28:43,359 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:111/540 detect_loss:0.399569 correct_loss:6.703904 loss:7.103472
+2022-11-14 09:28:44,646 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:112/540 detect_loss:0.398431 correct_loss:6.701519 loss:7.099949
+2022-11-14 09:28:45,943 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:113/540 detect_loss:0.395877 correct_loss:6.684615 loss:7.080492
+2022-11-14 09:28:47,245 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:114/540 detect_loss:0.397963 correct_loss:6.670174 loss:7.068137
+2022-11-14 09:28:48,542 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:115/540 detect_loss:0.392686 correct_loss:6.695882 loss:7.088568
+2022-11-14 09:28:49,845 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:116/540 detect_loss:0.387852 correct_loss:6.669614 loss:7.057466
+2022-11-14 09:28:51,141 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:117/540 detect_loss:0.380707 correct_loss:6.627854 loss:7.008561
+2022-11-14 09:28:52,447 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:118/540 detect_loss:0.392983 correct_loss:6.686883 loss:7.079865
+2022-11-14 09:28:53,755 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:119/540 detect_loss:0.400575 correct_loss:6.673935 loss:7.074510
+2022-11-14 09:28:55,056 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:120/540 detect_loss:0.382423 correct_loss:6.674362 loss:7.056786
+2022-11-14 09:28:56,358 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:121/540 detect_loss:0.400477 correct_loss:6.647202 loss:7.047679
+2022-11-14 09:28:57,662 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:122/540 detect_loss:0.377201 correct_loss:6.645823 loss:7.023025
+2022-11-14 09:28:58,969 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:123/540 detect_loss:0.382266 correct_loss:6.607216 loss:6.989482
+2022-11-14 09:29:00,279 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:124/540 detect_loss:0.388234 correct_loss:6.641854 loss:7.030088
+2022-11-14 09:29:01,583 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:125/540 detect_loss:0.389108 correct_loss:6.636840 loss:7.025948
+2022-11-14 09:29:02,905 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:126/540 detect_loss:0.380339 correct_loss:6.627692 loss:7.008030
+2022-11-14 09:29:04,227 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:127/540 detect_loss:0.394756 correct_loss:6.628728 loss:7.023485
+2022-11-14 09:29:05,552 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:128/540 detect_loss:0.387112 correct_loss:6.609597 loss:6.996709
+2022-11-14 09:29:06,883 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:129/540 detect_loss:0.392550 correct_loss:6.606324 loss:6.998874
+2022-11-14 09:29:08,221 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:130/540 detect_loss:0.382824 correct_loss:6.609553 loss:6.992378
+2022-11-14 09:29:09,557 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:131/540 detect_loss:0.390284 correct_loss:6.597847 loss:6.988130
+2022-11-14 09:29:10,893 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:132/540 detect_loss:0.379332 correct_loss:6.590115 loss:6.969447
+2022-11-14 09:29:12,222 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:133/540 detect_loss:0.384268 correct_loss:6.578542 loss:6.962810
+2022-11-14 09:29:13,546 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:134/540 detect_loss:0.383701 correct_loss:6.568060 loss:6.951762
+2022-11-14 09:29:14,876 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:135/540 detect_loss:0.379280 correct_loss:6.573639 loss:6.952919
+2022-11-14 09:29:16,195 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:136/540 detect_loss:0.393612 correct_loss:6.577531 loss:6.971144
+2022-11-14 09:29:17,513 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:137/540 detect_loss:0.377551 correct_loss:6.584654 loss:6.962204
+2022-11-14 09:29:18,836 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:138/540 detect_loss:0.377818 correct_loss:6.560431 loss:6.938249
+2022-11-14 09:29:20,153 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:139/540 detect_loss:0.373167 correct_loss:6.566696 loss:6.939863
+2022-11-14 09:29:21,469 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:140/540 detect_loss:0.379818 correct_loss:6.549183 loss:6.929001
+2022-11-14 09:29:22,786 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:141/540 detect_loss:0.373586 correct_loss:6.561915 loss:6.935501
+2022-11-14 09:29:24,103 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:142/540 detect_loss:0.380193 correct_loss:6.560813 loss:6.941006
+2022-11-14 09:29:25,416 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:143/540 detect_loss:0.375874 correct_loss:6.548009 loss:6.923883
+2022-11-14 09:29:26,735 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:144/540 detect_loss:0.373419 correct_loss:6.527934 loss:6.901353
+2022-11-14 09:29:28,046 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:145/540 detect_loss:0.362873 correct_loss:6.528967 loss:6.891840
+2022-11-14 09:29:29,353 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:146/540 detect_loss:0.375804 correct_loss:6.515363 loss:6.891167
+2022-11-14 09:29:30,671 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:147/540 detect_loss:0.376209 correct_loss:6.525326 loss:6.901535
+2022-11-14 09:29:31,987 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:148/540 detect_loss:0.370074 correct_loss:6.521948 loss:6.892022
+2022-11-14 09:29:33,310 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:149/540 detect_loss:0.368288 correct_loss:6.518956 loss:6.887243
+2022-11-14 09:29:41,751 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:29:41,752 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.25%, d_recall:79.53%, d_f1:2.46%
+2022-11-14 09:29:41,752 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.13%, c_f1:0.0%
+2022-11-14 09:29:41,752 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 767
+2022-11-14 09:29:41,753 - INFO - main.py - train - 105 - 【dev】 loss:116.569910 d_precision:0.0125 d_recall:0.7953 d_f1:0.0246 c_precision:0.0000 c_recall:0.0013 c_f1:0.0000
+2022-11-14 09:29:43,081 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:150/540 detect_loss:0.366402 correct_loss:6.499949 loss:6.866351
+2022-11-14 09:29:44,418 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:151/540 detect_loss:0.356468 correct_loss:6.486571 loss:6.843039
+2022-11-14 09:29:45,762 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:152/540 detect_loss:0.371867 correct_loss:6.499257 loss:6.871124
+2022-11-14 09:29:47,104 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:153/540 detect_loss:0.372846 correct_loss:6.518410 loss:6.891256
+2022-11-14 09:29:48,453 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:154/540 detect_loss:0.369750 correct_loss:6.505889 loss:6.875640
+2022-11-14 09:29:49,809 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:155/540 detect_loss:0.368116 correct_loss:6.504035 loss:6.872151
+2022-11-14 09:29:51,167 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:156/540 detect_loss:0.366091 correct_loss:6.475122 loss:6.841213
+2022-11-14 09:29:52,533 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:157/540 detect_loss:0.367629 correct_loss:6.477978 loss:6.845606
+2022-11-14 09:29:53,895 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:158/540 detect_loss:0.369781 correct_loss:6.469988 loss:6.839769
+2022-11-14 09:29:55,269 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:159/540 detect_loss:0.367977 correct_loss:6.467236 loss:6.835214
+2022-11-14 09:29:56,644 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:160/540 detect_loss:0.365352 correct_loss:6.492277 loss:6.857629
+2022-11-14 09:29:58,019 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:161/540 detect_loss:0.359175 correct_loss:6.457083 loss:6.816257
+2022-11-14 09:29:59,011 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:162/540 detect_loss:0.363912 correct_loss:6.474671 loss:6.838583
+2022-11-14 09:30:00,595 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:163/540 detect_loss:0.367017 correct_loss:6.452659 loss:6.819675
+2022-11-14 09:30:01,963 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:164/540 detect_loss:0.368944 correct_loss:6.473207 loss:6.842151
+2022-11-14 09:30:03,323 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:165/540 detect_loss:0.366510 correct_loss:6.423119 loss:6.789629
+2022-11-14 09:30:04,678 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:166/540 detect_loss:0.372764 correct_loss:6.475519 loss:6.848283
+2022-11-14 09:30:06,019 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:167/540 detect_loss:0.347320 correct_loss:6.436746 loss:6.784066
+2022-11-14 09:30:07,369 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:168/540 detect_loss:0.359709 correct_loss:6.436439 loss:6.796148
+2022-11-14 09:30:08,717 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:169/540 detect_loss:0.365050 correct_loss:6.431279 loss:6.796329
+2022-11-14 09:30:10,058 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:170/540 detect_loss:0.362360 correct_loss:6.419094 loss:6.781454
+2022-11-14 09:30:11,409 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:171/540 detect_loss:0.358266 correct_loss:6.417345 loss:6.775611
+2022-11-14 09:30:12,753 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:172/540 detect_loss:0.359829 correct_loss:6.398248 loss:6.758077
+2022-11-14 09:30:14,093 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:173/540 detect_loss:0.356412 correct_loss:6.420856 loss:6.777268
+2022-11-14 09:30:15,436 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:174/540 detect_loss:0.360389 correct_loss:6.424961 loss:6.785350
+2022-11-14 09:30:16,779 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:175/540 detect_loss:0.356598 correct_loss:6.391352 loss:6.747950
+2022-11-14 09:30:18,121 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:176/540 detect_loss:0.355327 correct_loss:6.397950 loss:6.753277
+2022-11-14 09:30:19,459 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:177/540 detect_loss:0.346881 correct_loss:6.385777 loss:6.732659
+2022-11-14 09:30:20,802 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:178/540 detect_loss:0.345670 correct_loss:6.366606 loss:6.712276
+2022-11-14 09:30:22,152 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:179/540 detect_loss:0.346879 correct_loss:6.388834 loss:6.735712
+2022-11-14 09:30:23,493 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:180/540 detect_loss:0.349086 correct_loss:6.349865 loss:6.698951
+2022-11-14 09:30:24,839 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:181/540 detect_loss:0.344439 correct_loss:6.355624 loss:6.700063
+2022-11-14 09:30:26,187 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:182/540 detect_loss:0.359746 correct_loss:6.361763 loss:6.721508
+2022-11-14 09:30:27,532 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:183/540 detect_loss:0.351279 correct_loss:6.359238 loss:6.710517
+2022-11-14 09:30:28,890 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:184/540 detect_loss:0.360247 correct_loss:6.351062 loss:6.711308
+2022-11-14 09:30:30,238 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:185/540 detect_loss:0.353256 correct_loss:6.338133 loss:6.691389
+2022-11-14 09:30:31,585 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:186/540 detect_loss:0.350096 correct_loss:6.355224 loss:6.705319
+2022-11-14 09:30:32,943 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:187/540 detect_loss:0.344334 correct_loss:6.329415 loss:6.673749
+2022-11-14 09:30:34,294 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:188/540 detect_loss:0.350230 correct_loss:6.356811 loss:6.707041
+2022-11-14 09:30:35,646 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:189/540 detect_loss:0.347237 correct_loss:6.347220 loss:6.694458
+2022-11-14 09:30:37,000 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:190/540 detect_loss:0.346833 correct_loss:6.319335 loss:6.666168
+2022-11-14 09:30:38,356 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:191/540 detect_loss:0.335883 correct_loss:6.309028 loss:6.644911
+2022-11-14 09:30:39,705 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:192/540 detect_loss:0.345602 correct_loss:6.318698 loss:6.664299
+2022-11-14 09:30:41,058 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:193/540 detect_loss:0.346393 correct_loss:6.335055 loss:6.681448
+2022-11-14 09:30:42,405 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:194/540 detect_loss:0.347390 correct_loss:6.324015 loss:6.671404
+2022-11-14 09:30:43,757 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:195/540 detect_loss:0.337697 correct_loss:6.316547 loss:6.654244
+2022-11-14 09:30:45,109 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:196/540 detect_loss:0.354092 correct_loss:6.325759 loss:6.679852
+2022-11-14 09:30:46,470 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:197/540 detect_loss:0.343516 correct_loss:6.291067 loss:6.634583
+2022-11-14 09:30:47,826 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:198/540 detect_loss:0.339009 correct_loss:6.281322 loss:6.620330
+2022-11-14 09:30:49,175 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:199/540 detect_loss:0.343405 correct_loss:6.283344 loss:6.626750
+2022-11-14 09:30:57,935 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:30:57,935 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.16%, d_recall:50.2%, d_f1:2.27%
+2022-11-14 09:30:57,935 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:30:57,935 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 767
+2022-11-14 09:30:57,937 - INFO - main.py - train - 105 - 【dev】 loss:112.165214 d_precision:0.0116 d_recall:0.5020 d_f1:0.0227 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:30:59,276 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:200/540 detect_loss:0.348887 correct_loss:6.281358 loss:6.630245
+2022-11-14 09:31:00,623 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:201/540 detect_loss:0.342547 correct_loss:6.287931 loss:6.630478
+2022-11-14 09:31:01,992 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:202/540 detect_loss:0.346442 correct_loss:6.278333 loss:6.624775
+2022-11-14 09:31:03,355 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:203/540 detect_loss:0.339037 correct_loss:6.260998 loss:6.600035
+2022-11-14 09:31:04,724 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:204/540 detect_loss:0.353033 correct_loss:6.287963 loss:6.640996
+2022-11-14 09:31:06,097 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:205/540 detect_loss:0.341467 correct_loss:6.251185 loss:6.592653
+2022-11-14 09:31:07,460 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:206/540 detect_loss:0.339679 correct_loss:6.247553 loss:6.587232
+2022-11-14 09:31:08,821 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:207/540 detect_loss:0.340894 correct_loss:6.255455 loss:6.596349
+2022-11-14 09:31:10,188 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:208/540 detect_loss:0.342953 correct_loss:6.271142 loss:6.614095
+2022-11-14 09:31:11,546 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:209/540 detect_loss:0.343522 correct_loss:6.260070 loss:6.603592
+2022-11-14 09:31:12,910 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:210/540 detect_loss:0.327183 correct_loss:6.222785 loss:6.549968
+2022-11-14 09:31:14,267 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:211/540 detect_loss:0.337996 correct_loss:6.250806 loss:6.588801
+2022-11-14 09:31:15,629 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:212/540 detect_loss:0.338436 correct_loss:6.244057 loss:6.582493
+2022-11-14 09:31:16,987 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:213/540 detect_loss:0.339151 correct_loss:6.247865 loss:6.587016
+2022-11-14 09:31:18,347 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:214/540 detect_loss:0.333316 correct_loss:6.202212 loss:6.535528
+2022-11-14 09:31:19,703 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:215/540 detect_loss:0.341955 correct_loss:6.245387 loss:6.587342
+2022-11-14 09:31:20,683 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:216/540 detect_loss:0.338466 correct_loss:6.189586 loss:6.528052
+2022-11-14 09:31:22,206 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:217/540 detect_loss:0.325015 correct_loss:6.197593 loss:6.522608
+2022-11-14 09:31:23,565 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:218/540 detect_loss:0.333371 correct_loss:6.218593 loss:6.551964
+2022-11-14 09:31:24,937 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:219/540 detect_loss:0.335746 correct_loss:6.201796 loss:6.537542
+2022-11-14 09:31:26,295 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:220/540 detect_loss:0.340602 correct_loss:6.220828 loss:6.561430
+2022-11-14 09:31:27,648 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:221/540 detect_loss:0.328804 correct_loss:6.185018 loss:6.513822
+2022-11-14 09:31:29,008 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:222/540 detect_loss:0.330854 correct_loss:6.204875 loss:6.535728
+2022-11-14 09:31:30,366 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:223/540 detect_loss:0.337713 correct_loss:6.193990 loss:6.531703
+2022-11-14 09:31:31,723 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:224/540 detect_loss:0.327292 correct_loss:6.163872 loss:6.491163
+2022-11-14 09:31:33,083 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:225/540 detect_loss:0.321727 correct_loss:6.181638 loss:6.503365
+2022-11-14 09:31:34,443 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:226/540 detect_loss:0.333338 correct_loss:6.171916 loss:6.505254
+2022-11-14 09:31:35,801 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:227/540 detect_loss:0.328805 correct_loss:6.144269 loss:6.473074
+2022-11-14 09:31:37,164 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:228/540 detect_loss:0.331286 correct_loss:6.152835 loss:6.484121
+2022-11-14 09:31:38,520 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:229/540 detect_loss:0.330902 correct_loss:6.181884 loss:6.512786
+2022-11-14 09:31:39,878 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:230/540 detect_loss:0.331997 correct_loss:6.184872 loss:6.516869
+2022-11-14 09:31:41,236 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:231/540 detect_loss:0.322158 correct_loss:6.159749 loss:6.481907
+2022-11-14 09:31:42,589 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:232/540 detect_loss:0.327000 correct_loss:6.142666 loss:6.469666
+2022-11-14 09:31:43,951 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:233/540 detect_loss:0.335121 correct_loss:6.135755 loss:6.470875
+2022-11-14 09:31:45,304 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:234/540 detect_loss:0.336264 correct_loss:6.144796 loss:6.481061
+2022-11-14 09:31:46,666 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:235/540 detect_loss:0.335783 correct_loss:6.133960 loss:6.469743
+2022-11-14 09:31:48,024 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:236/540 detect_loss:0.334007 correct_loss:6.137004 loss:6.471011
+2022-11-14 09:31:49,385 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:237/540 detect_loss:0.321577 correct_loss:6.106802 loss:6.428380
+2022-11-14 09:31:50,743 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:238/540 detect_loss:0.336204 correct_loss:6.144761 loss:6.480964
+2022-11-14 09:31:52,100 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:239/540 detect_loss:0.330234 correct_loss:6.103748 loss:6.433981
+2022-11-14 09:31:53,463 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:240/540 detect_loss:0.321146 correct_loss:6.096232 loss:6.417378
+2022-11-14 09:31:54,820 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:241/540 detect_loss:0.332197 correct_loss:6.114586 loss:6.446783
+2022-11-14 09:31:56,180 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:242/540 detect_loss:0.322724 correct_loss:6.113889 loss:6.436612
+2022-11-14 09:31:57,535 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:243/540 detect_loss:0.323127 correct_loss:6.091182 loss:6.414309
+2022-11-14 09:31:58,895 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:244/540 detect_loss:0.322382 correct_loss:6.110499 loss:6.432881
+2022-11-14 09:32:00,255 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:245/540 detect_loss:0.329329 correct_loss:6.119723 loss:6.449051
+2022-11-14 09:32:01,610 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:246/540 detect_loss:0.311583 correct_loss:6.093965 loss:6.405548
+2022-11-14 09:32:02,963 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:247/540 detect_loss:0.324317 correct_loss:6.093858 loss:6.418175
+2022-11-14 09:32:04,321 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:248/540 detect_loss:0.329910 correct_loss:6.111302 loss:6.441213
+2022-11-14 09:32:05,681 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:249/540 detect_loss:0.323044 correct_loss:6.068083 loss:6.391127
+2022-11-14 09:32:14,489 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:32:14,489 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.18%, d_recall:25.16%, d_f1:2.25%
+2022-11-14 09:32:14,490 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:32:14,490 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 767
+2022-11-14 09:32:14,491 - INFO - main.py - train - 105 - 【dev】 loss:108.120166 d_precision:0.0118 d_recall:0.2516 d_f1:0.0225 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:32:15,835 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:250/540 detect_loss:0.327467 correct_loss:6.088113 loss:6.415581
+2022-11-14 09:32:17,193 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:251/540 detect_loss:0.317193 correct_loss:6.065433 loss:6.382626
+2022-11-14 09:32:18,558 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:252/540 detect_loss:0.314994 correct_loss:6.059004 loss:6.373998
+2022-11-14 09:32:19,909 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:253/540 detect_loss:0.318493 correct_loss:6.060501 loss:6.378994
+2022-11-14 09:32:21,261 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:254/540 detect_loss:0.320534 correct_loss:6.054518 loss:6.375051
+2022-11-14 09:32:22,620 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:255/540 detect_loss:0.319614 correct_loss:6.058356 loss:6.377969
+2022-11-14 09:32:23,973 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:256/540 detect_loss:0.325002 correct_loss:6.071540 loss:6.396542
+2022-11-14 09:32:25,324 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:257/540 detect_loss:0.322540 correct_loss:6.065080 loss:6.387620
+2022-11-14 09:32:26,680 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:258/540 detect_loss:0.319403 correct_loss:6.049571 loss:6.368975
+2022-11-14 09:32:28,043 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:259/540 detect_loss:0.316369 correct_loss:6.075465 loss:6.391834
+2022-11-14 09:32:29,399 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:260/540 detect_loss:0.317441 correct_loss:6.045602 loss:6.363043
+2022-11-14 09:32:30,756 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:261/540 detect_loss:0.313063 correct_loss:6.032157 loss:6.345220
+2022-11-14 09:32:32,117 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:262/540 detect_loss:0.313445 correct_loss:6.027412 loss:6.340857
+2022-11-14 09:32:33,477 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:263/540 detect_loss:0.321238 correct_loss:6.001270 loss:6.322508
+2022-11-14 09:32:34,838 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:264/540 detect_loss:0.310824 correct_loss:6.001199 loss:6.312024
+2022-11-14 09:32:36,191 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:265/540 detect_loss:0.316197 correct_loss:6.044696 loss:6.360893
+2022-11-14 09:32:37,554 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:266/540 detect_loss:0.313330 correct_loss:6.013934 loss:6.327265
+2022-11-14 09:32:38,916 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:267/540 detect_loss:0.314364 correct_loss:5.993484 loss:6.307847
+2022-11-14 09:32:40,274 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:268/540 detect_loss:0.315529 correct_loss:6.003043 loss:6.318572
+2022-11-14 09:32:41,631 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:269/540 detect_loss:0.309487 correct_loss:6.009899 loss:6.319386
+2022-11-14 09:32:42,613 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:270/540 detect_loss:0.320491 correct_loss:5.995127 loss:6.315618
+2022-11-14 09:32:44,121 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:271/540 detect_loss:0.303470 correct_loss:5.985014 loss:6.288484
+2022-11-14 09:32:45,484 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:272/540 detect_loss:0.309817 correct_loss:5.994473 loss:6.304290
+2022-11-14 09:32:46,840 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:273/540 detect_loss:0.318342 correct_loss:6.005713 loss:6.324055
+2022-11-14 09:32:48,200 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:274/540 detect_loss:0.315938 correct_loss:5.969202 loss:6.285140
+2022-11-14 09:32:49,553 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:275/540 detect_loss:0.321937 correct_loss:6.018935 loss:6.340872
+2022-11-14 09:32:50,916 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:276/540 detect_loss:0.306839 correct_loss:5.946493 loss:6.253332
+2022-11-14 09:32:52,277 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:277/540 detect_loss:0.308221 correct_loss:5.990451 loss:6.298672
+2022-11-14 09:32:53,637 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:278/540 detect_loss:0.308961 correct_loss:5.947171 loss:6.256133
+2022-11-14 09:32:54,993 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:279/540 detect_loss:0.314157 correct_loss:5.963995 loss:6.278152
+2022-11-14 09:32:56,349 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:280/540 detect_loss:0.314620 correct_loss:5.946048 loss:6.260668
+2022-11-14 09:32:57,705 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:281/540 detect_loss:0.304444 correct_loss:5.964782 loss:6.269227
+2022-11-14 09:32:59,061 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:282/540 detect_loss:0.313807 correct_loss:5.963277 loss:6.277084
+2022-11-14 09:33:00,414 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:283/540 detect_loss:0.319917 correct_loss:5.951212 loss:6.271129
+2022-11-14 09:33:01,770 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:284/540 detect_loss:0.307156 correct_loss:5.953313 loss:6.260469
+2022-11-14 09:33:03,134 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:285/540 detect_loss:0.311427 correct_loss:5.942732 loss:6.254158
+2022-11-14 09:33:04,494 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:286/540 detect_loss:0.305108 correct_loss:5.940835 loss:6.245944
+2022-11-14 09:33:05,856 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:287/540 detect_loss:0.310061 correct_loss:5.948844 loss:6.258906
+2022-11-14 09:33:07,217 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:288/540 detect_loss:0.304932 correct_loss:5.910794 loss:6.215725
+2022-11-14 09:33:08,574 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:289/540 detect_loss:0.304516 correct_loss:5.900958 loss:6.205473
+2022-11-14 09:33:09,930 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:290/540 detect_loss:0.308228 correct_loss:5.932090 loss:6.240318
+2022-11-14 09:33:11,306 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:291/540 detect_loss:0.307400 correct_loss:5.900546 loss:6.207946
+2022-11-14 09:33:12,669 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:292/540 detect_loss:0.301406 correct_loss:5.902557 loss:6.203964
+2022-11-14 09:33:14,021 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:293/540 detect_loss:0.315358 correct_loss:5.930274 loss:6.245632
+2022-11-14 09:33:15,381 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:294/540 detect_loss:0.305028 correct_loss:5.905618 loss:6.210646
+2022-11-14 09:33:16,730 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:295/540 detect_loss:0.302909 correct_loss:5.910970 loss:6.213879
+2022-11-14 09:33:18,085 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:296/540 detect_loss:0.309299 correct_loss:5.874867 loss:6.184166
+2022-11-14 09:33:19,442 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:297/540 detect_loss:0.296865 correct_loss:5.903655 loss:6.200520
+2022-11-14 09:33:20,804 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:298/540 detect_loss:0.306729 correct_loss:5.895346 loss:6.202075
+2022-11-14 09:33:22,161 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:299/540 detect_loss:0.303292 correct_loss:5.891527 loss:6.194819
+2022-11-14 09:33:30,894 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:33:30,894 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.23%, d_recall:10.56%, d_f1:2.1999999999999997%
+2022-11-14 09:33:30,895 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:33:30,895 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 767
+2022-11-14 09:33:30,896 - INFO - main.py - train - 105 - 【dev】 loss:104.464587 d_precision:0.0123 d_recall:0.1056 d_f1:0.0220 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:33:32,242 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:300/540 detect_loss:0.314925 correct_loss:5.890798 loss:6.205723
+2022-11-14 09:33:33,592 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:301/540 detect_loss:0.295011 correct_loss:5.846613 loss:6.141623
+2022-11-14 09:33:34,962 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:302/540 detect_loss:0.301101 correct_loss:5.851746 loss:6.152846
+2022-11-14 09:33:36,308 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:303/540 detect_loss:0.307759 correct_loss:5.887693 loss:6.195452
+2022-11-14 09:33:37,660 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:304/540 detect_loss:0.301625 correct_loss:5.881112 loss:6.182737
+2022-11-14 09:33:39,018 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:305/540 detect_loss:0.304726 correct_loss:5.889804 loss:6.194530
+2022-11-14 09:33:40,371 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:306/540 detect_loss:0.301538 correct_loss:5.862018 loss:6.163555
+2022-11-14 09:33:41,725 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:307/540 detect_loss:0.294163 correct_loss:5.839303 loss:6.133465
+2022-11-14 09:33:43,079 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:308/540 detect_loss:0.289677 correct_loss:5.840970 loss:6.130646
+2022-11-14 09:33:44,434 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:309/540 detect_loss:0.298052 correct_loss:5.858828 loss:6.156879
+2022-11-14 09:33:45,788 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:310/540 detect_loss:0.293115 correct_loss:5.828913 loss:6.122028
+2022-11-14 09:33:47,142 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:311/540 detect_loss:0.290915 correct_loss:5.833557 loss:6.124473
+2022-11-14 09:33:48,493 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:312/540 detect_loss:0.301065 correct_loss:5.856158 loss:6.157223
+2022-11-14 09:33:49,852 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:313/540 detect_loss:0.288776 correct_loss:5.815782 loss:6.104558
+2022-11-14 09:33:51,209 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:314/540 detect_loss:0.304832 correct_loss:5.860494 loss:6.165326
+2022-11-14 09:33:52,562 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:315/540 detect_loss:0.301147 correct_loss:5.841773 loss:6.142920
+2022-11-14 09:33:53,916 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:316/540 detect_loss:0.290359 correct_loss:5.818904 loss:6.109263
+2022-11-14 09:33:55,267 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:317/540 detect_loss:0.304574 correct_loss:5.832273 loss:6.136847
+2022-11-14 09:33:56,624 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:318/540 detect_loss:0.306416 correct_loss:5.819645 loss:6.126061
+2022-11-14 09:33:57,977 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:319/540 detect_loss:0.292263 correct_loss:5.817128 loss:6.109391
+2022-11-14 09:33:59,336 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:320/540 detect_loss:0.296542 correct_loss:5.795198 loss:6.091740
+2022-11-14 09:34:00,696 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:321/540 detect_loss:0.303930 correct_loss:5.826470 loss:6.130400
+2022-11-14 09:34:02,056 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:322/540 detect_loss:0.297012 correct_loss:5.789395 loss:6.086407
+2022-11-14 09:34:03,410 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:323/540 detect_loss:0.298000 correct_loss:5.823527 loss:6.121528
+2022-11-14 09:34:04,384 - INFO - main.py - train - 89 - 【train】 epoch:6/10 step:324/540 detect_loss:0.305382 correct_loss:5.851860 loss:6.157242
+2022-11-14 09:34:05,902 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:325/540 detect_loss:0.292255 correct_loss:5.826968 loss:6.119223
+2022-11-14 09:34:07,253 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:326/540 detect_loss:0.296773 correct_loss:5.776981 loss:6.073754
+2022-11-14 09:34:08,615 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:327/540 detect_loss:0.295646 correct_loss:5.773839 loss:6.069485
+2022-11-14 09:34:09,972 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:328/540 detect_loss:0.290600 correct_loss:5.791845 loss:6.082445
+2022-11-14 09:34:11,326 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:329/540 detect_loss:0.288584 correct_loss:5.765305 loss:6.053889
+2022-11-14 09:34:12,676 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:330/540 detect_loss:0.296096 correct_loss:5.750794 loss:6.046890
+2022-11-14 09:34:14,024 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:331/540 detect_loss:0.305390 correct_loss:5.806357 loss:6.111747
+2022-11-14 09:34:15,389 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:332/540 detect_loss:0.292144 correct_loss:5.740474 loss:6.032619
+2022-11-14 09:34:16,750 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:333/540 detect_loss:0.285965 correct_loss:5.764571 loss:6.050536
+2022-11-14 09:34:18,108 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:334/540 detect_loss:0.290428 correct_loss:5.767990 loss:6.058417
+2022-11-14 09:34:19,462 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:335/540 detect_loss:0.294835 correct_loss:5.784572 loss:6.079408
+2022-11-14 09:34:20,810 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:336/540 detect_loss:0.283654 correct_loss:5.787842 loss:6.071496
+2022-11-14 09:34:22,169 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:337/540 detect_loss:0.291905 correct_loss:5.760547 loss:6.052452
+2022-11-14 09:34:23,527 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:338/540 detect_loss:0.293606 correct_loss:5.754875 loss:6.048481
+2022-11-14 09:34:24,885 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:339/540 detect_loss:0.286225 correct_loss:5.717219 loss:6.003444
+2022-11-14 09:34:26,237 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:340/540 detect_loss:0.297765 correct_loss:5.747005 loss:6.044771
+2022-11-14 09:34:27,594 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:341/540 detect_loss:0.283093 correct_loss:5.741485 loss:6.024578
+2022-11-14 09:34:28,951 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:342/540 detect_loss:0.289932 correct_loss:5.734325 loss:6.024258
+2022-11-14 09:34:30,308 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:343/540 detect_loss:0.289402 correct_loss:5.760891 loss:6.050293
+2022-11-14 09:34:31,661 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:344/540 detect_loss:0.297986 correct_loss:5.760603 loss:6.058589
+2022-11-14 09:34:33,006 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:345/540 detect_loss:0.289534 correct_loss:5.740899 loss:6.030433
+2022-11-14 09:34:34,362 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:346/540 detect_loss:0.292837 correct_loss:5.732642 loss:6.025478
+2022-11-14 09:34:35,716 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:347/540 detect_loss:0.283895 correct_loss:5.711658 loss:5.995553
+2022-11-14 09:34:37,065 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:348/540 detect_loss:0.283190 correct_loss:5.732255 loss:6.015445
+2022-11-14 09:34:38,422 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:349/540 detect_loss:0.277661 correct_loss:5.694402 loss:5.972063
+2022-11-14 09:34:47,141 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:34:47,141 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.7500000000000002%, d_recall:5.74%, d_f1:2.68%
+2022-11-14 09:34:47,141 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:34:47,142 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 767
+2022-11-14 09:34:47,143 - INFO - main.py - train - 105 - 【dev】 loss:101.259553 d_precision:0.0175 d_recall:0.0574 d_f1:0.0268 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:34:48,483 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:350/540 detect_loss:0.297820 correct_loss:5.738253 loss:6.036073
+2022-11-14 09:34:49,831 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:351/540 detect_loss:0.296914 correct_loss:5.755272 loss:6.052186
+2022-11-14 09:34:51,191 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:352/540 detect_loss:0.295352 correct_loss:5.698616 loss:5.993968
+2022-11-14 09:34:52,540 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:353/540 detect_loss:0.292504 correct_loss:5.710510 loss:6.003014
+2022-11-14 09:34:53,889 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:354/540 detect_loss:0.285383 correct_loss:5.708980 loss:5.994363
+2022-11-14 09:34:55,251 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:355/540 detect_loss:0.290274 correct_loss:5.690043 loss:5.980317
+2022-11-14 09:34:56,602 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:356/540 detect_loss:0.286682 correct_loss:5.707416 loss:5.994098
+2022-11-14 09:34:57,958 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:357/540 detect_loss:0.288581 correct_loss:5.699487 loss:5.988069
+2022-11-14 09:34:59,318 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:358/540 detect_loss:0.286261 correct_loss:5.674220 loss:5.960481
+2022-11-14 09:35:00,666 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:359/540 detect_loss:0.285105 correct_loss:5.712684 loss:5.997789
+2022-11-14 09:35:02,027 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:360/540 detect_loss:0.290618 correct_loss:5.682401 loss:5.973019
+2022-11-14 09:35:03,381 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:361/540 detect_loss:0.292137 correct_loss:5.684057 loss:5.976194
+2022-11-14 09:35:04,740 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:362/540 detect_loss:0.289511 correct_loss:5.665305 loss:5.954816
+2022-11-14 09:35:06,102 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:363/540 detect_loss:0.290030 correct_loss:5.703380 loss:5.993410
+2022-11-14 09:35:07,467 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:364/540 detect_loss:0.290530 correct_loss:5.712256 loss:6.002786
+2022-11-14 09:35:08,823 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:365/540 detect_loss:0.293453 correct_loss:5.691559 loss:5.985013
+2022-11-14 09:35:10,183 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:366/540 detect_loss:0.285133 correct_loss:5.682491 loss:5.967624
+2022-11-14 09:35:11,544 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:367/540 detect_loss:0.277438 correct_loss:5.652374 loss:5.929812
+2022-11-14 09:35:12,895 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:368/540 detect_loss:0.290075 correct_loss:5.661854 loss:5.951929
+2022-11-14 09:35:14,251 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:369/540 detect_loss:0.278520 correct_loss:5.656471 loss:5.934990
+2022-11-14 09:35:15,609 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:370/540 detect_loss:0.288630 correct_loss:5.654447 loss:5.943077
+2022-11-14 09:35:16,968 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:371/540 detect_loss:0.279201 correct_loss:5.656073 loss:5.935274
+2022-11-14 09:35:18,330 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:372/540 detect_loss:0.288545 correct_loss:5.636382 loss:5.924927
+2022-11-14 09:35:19,678 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:373/540 detect_loss:0.281660 correct_loss:5.679628 loss:5.961288
+2022-11-14 09:35:21,040 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:374/540 detect_loss:0.275777 correct_loss:5.644574 loss:5.920351
+2022-11-14 09:35:22,394 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:375/540 detect_loss:0.279685 correct_loss:5.627820 loss:5.907504
+2022-11-14 09:35:23,755 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:376/540 detect_loss:0.283529 correct_loss:5.624925 loss:5.908453
+2022-11-14 09:35:25,117 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:377/540 detect_loss:0.285617 correct_loss:5.650966 loss:5.936584
+2022-11-14 09:35:26,104 - INFO - main.py - train - 89 - 【train】 epoch:7/10 step:378/540 detect_loss:0.284795 correct_loss:5.619982 loss:5.904778
+2022-11-14 09:35:27,627 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:379/540 detect_loss:0.288853 correct_loss:5.625937 loss:5.914790
+2022-11-14 09:35:28,985 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:380/540 detect_loss:0.277373 correct_loss:5.607924 loss:5.885297
+2022-11-14 09:35:30,350 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:381/540 detect_loss:0.276388 correct_loss:5.613037 loss:5.889425
+2022-11-14 09:35:31,710 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:382/540 detect_loss:0.283132 correct_loss:5.615047 loss:5.898179
+2022-11-14 09:35:33,066 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:383/540 detect_loss:0.280332 correct_loss:5.605019 loss:5.885351
+2022-11-14 09:35:34,428 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:384/540 detect_loss:0.279762 correct_loss:5.562450 loss:5.842212
+2022-11-14 09:35:35,791 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:385/540 detect_loss:0.288203 correct_loss:5.595592 loss:5.883795
+2022-11-14 09:35:37,152 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:386/540 detect_loss:0.282094 correct_loss:5.628502 loss:5.910597
+2022-11-14 09:35:38,513 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:387/540 detect_loss:0.281860 correct_loss:5.586421 loss:5.868281
+2022-11-14 09:35:39,874 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:388/540 detect_loss:0.280355 correct_loss:5.593933 loss:5.874288
+2022-11-14 09:35:41,231 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:389/540 detect_loss:0.282530 correct_loss:5.607447 loss:5.889977
+2022-11-14 09:35:42,587 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:390/540 detect_loss:0.281716 correct_loss:5.649258 loss:5.930974
+2022-11-14 09:35:43,949 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:391/540 detect_loss:0.285370 correct_loss:5.627247 loss:5.912617
+2022-11-14 09:35:45,307 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:392/540 detect_loss:0.276416 correct_loss:5.626744 loss:5.903161
+2022-11-14 09:35:46,669 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:393/540 detect_loss:0.273947 correct_loss:5.574133 loss:5.848080
+2022-11-14 09:35:48,024 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:394/540 detect_loss:0.283478 correct_loss:5.592444 loss:5.875923
+2022-11-14 09:35:49,379 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:395/540 detect_loss:0.276055 correct_loss:5.620848 loss:5.896903
+2022-11-14 09:35:50,734 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:396/540 detect_loss:0.273931 correct_loss:5.558640 loss:5.832571
+2022-11-14 09:35:52,089 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:397/540 detect_loss:0.272961 correct_loss:5.555941 loss:5.828902
+2022-11-14 09:35:53,442 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:398/540 detect_loss:0.275576 correct_loss:5.584838 loss:5.860414
+2022-11-14 09:35:54,797 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:399/540 detect_loss:0.283429 correct_loss:5.631113 loss:5.914542
+2022-11-14 09:36:03,537 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:36:03,538 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:2.4899999999999998%, d_recall:3.39%, d_f1:2.87%
+2022-11-14 09:36:03,538 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:36:03,538 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 767
+2022-11-14 09:36:03,539 - INFO - main.py - train - 105 - 【dev】 loss:98.646740 d_precision:0.0249 d_recall:0.0339 d_f1:0.0287 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:36:04,872 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:400/540 detect_loss:0.287837 correct_loss:5.596359 loss:5.884196
+2022-11-14 09:36:06,220 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:401/540 detect_loss:0.283885 correct_loss:5.625916 loss:5.909800
+2022-11-14 09:36:07,588 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:402/540 detect_loss:0.278439 correct_loss:5.595841 loss:5.874281
+2022-11-14 09:36:08,950 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:403/540 detect_loss:0.272762 correct_loss:5.560607 loss:5.833369
+2022-11-14 09:36:10,303 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:404/540 detect_loss:0.275435 correct_loss:5.567920 loss:5.843355
+2022-11-14 09:36:11,657 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:405/540 detect_loss:0.281232 correct_loss:5.562744 loss:5.843976
+2022-11-14 09:36:13,012 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:406/540 detect_loss:0.258883 correct_loss:5.551556 loss:5.810439
+2022-11-14 09:36:14,365 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:407/540 detect_loss:0.277024 correct_loss:5.562175 loss:5.839199
+2022-11-14 09:36:15,724 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:408/540 detect_loss:0.264153 correct_loss:5.538014 loss:5.802167
+2022-11-14 09:36:17,079 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:409/540 detect_loss:0.279203 correct_loss:5.577487 loss:5.856691
+2022-11-14 09:36:18,436 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:410/540 detect_loss:0.275010 correct_loss:5.546167 loss:5.821177
+2022-11-14 09:36:19,796 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:411/540 detect_loss:0.272560 correct_loss:5.525781 loss:5.798340
+2022-11-14 09:36:21,157 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:412/540 detect_loss:0.286824 correct_loss:5.556786 loss:5.843609
+2022-11-14 09:36:22,510 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:413/540 detect_loss:0.275821 correct_loss:5.546567 loss:5.822389
+2022-11-14 09:36:23,870 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:414/540 detect_loss:0.280726 correct_loss:5.562258 loss:5.842984
+2022-11-14 09:36:25,235 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:415/540 detect_loss:0.279469 correct_loss:5.554852 loss:5.834321
+2022-11-14 09:36:26,601 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:416/540 detect_loss:0.271337 correct_loss:5.521002 loss:5.792339
+2022-11-14 09:36:27,973 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:417/540 detect_loss:0.283019 correct_loss:5.574029 loss:5.857048
+2022-11-14 09:36:29,340 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:418/540 detect_loss:0.279325 correct_loss:5.540441 loss:5.819766
+2022-11-14 09:36:30,700 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:419/540 detect_loss:0.284190 correct_loss:5.547378 loss:5.831567
+2022-11-14 09:36:32,062 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:420/540 detect_loss:0.263266 correct_loss:5.524881 loss:5.788147
+2022-11-14 09:36:33,421 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:421/540 detect_loss:0.269536 correct_loss:5.549784 loss:5.819320
+2022-11-14 09:36:34,780 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:422/540 detect_loss:0.271753 correct_loss:5.534620 loss:5.806373
+2022-11-14 09:36:36,136 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:423/540 detect_loss:0.273941 correct_loss:5.537188 loss:5.811129
+2022-11-14 09:36:37,500 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:424/540 detect_loss:0.280580 correct_loss:5.555437 loss:5.836017
+2022-11-14 09:36:38,862 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:425/540 detect_loss:0.276442 correct_loss:5.509615 loss:5.786057
+2022-11-14 09:36:40,219 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:426/540 detect_loss:0.274398 correct_loss:5.527606 loss:5.802003
+2022-11-14 09:36:41,586 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:427/540 detect_loss:0.271538 correct_loss:5.511559 loss:5.783097
+2022-11-14 09:36:42,946 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:428/540 detect_loss:0.273887 correct_loss:5.531691 loss:5.805578
+2022-11-14 09:36:44,296 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:429/540 detect_loss:0.277610 correct_loss:5.545106 loss:5.822716
+2022-11-14 09:36:45,663 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:430/540 detect_loss:0.278548 correct_loss:5.507332 loss:5.785880
+2022-11-14 09:36:47,018 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:431/540 detect_loss:0.271102 correct_loss:5.504354 loss:5.775456
+2022-11-14 09:36:47,995 - INFO - main.py - train - 89 - 【train】 epoch:8/10 step:432/540 detect_loss:0.282395 correct_loss:5.557114 loss:5.839509
+2022-11-14 09:36:49,517 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:433/540 detect_loss:0.280755 correct_loss:5.529442 loss:5.810197
+2022-11-14 09:36:50,876 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:434/540 detect_loss:0.282162 correct_loss:5.534993 loss:5.817155
+2022-11-14 09:36:52,237 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:435/540 detect_loss:0.274548 correct_loss:5.517482 loss:5.792029
+2022-11-14 09:36:53,598 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:436/540 detect_loss:0.260221 correct_loss:5.470754 loss:5.730975
+2022-11-14 09:36:54,959 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:437/540 detect_loss:0.272909 correct_loss:5.539750 loss:5.812659
+2022-11-14 09:36:56,323 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:438/540 detect_loss:0.274924 correct_loss:5.487090 loss:5.762014
+2022-11-14 09:36:57,686 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:439/540 detect_loss:0.264359 correct_loss:5.505046 loss:5.769405
+2022-11-14 09:36:59,046 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:440/540 detect_loss:0.270543 correct_loss:5.515578 loss:5.786121
+2022-11-14 09:37:00,407 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:441/540 detect_loss:0.265916 correct_loss:5.463710 loss:5.729626
+2022-11-14 09:37:01,772 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:442/540 detect_loss:0.271003 correct_loss:5.499876 loss:5.770879
+2022-11-14 09:37:03,131 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:443/540 detect_loss:0.285928 correct_loss:5.524146 loss:5.810073
+2022-11-14 09:37:04,495 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:444/540 detect_loss:0.266670 correct_loss:5.491432 loss:5.758102
+2022-11-14 09:37:05,861 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:445/540 detect_loss:0.267494 correct_loss:5.469790 loss:5.737284
+2022-11-14 09:37:07,225 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:446/540 detect_loss:0.273870 correct_loss:5.459489 loss:5.733360
+2022-11-14 09:37:08,582 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:447/540 detect_loss:0.273791 correct_loss:5.468970 loss:5.742762
+2022-11-14 09:37:09,945 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:448/540 detect_loss:0.270104 correct_loss:5.491896 loss:5.762000
+2022-11-14 09:37:11,303 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:449/540 detect_loss:0.266852 correct_loss:5.443254 loss:5.710105
+2022-11-14 09:37:20,056 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:37:20,056 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:3.5700000000000003%, d_recall:2.6100000000000003%, d_f1:3.02%
+2022-11-14 09:37:20,056 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:37:20,056 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 767
+2022-11-14 09:37:20,058 - INFO - main.py - train - 105 - 【dev】 loss:96.778000 d_precision:0.0357 d_recall:0.0261 d_f1:0.0302 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:37:21,401 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:450/540 detect_loss:0.264630 correct_loss:5.467271 loss:5.731901
+2022-11-14 09:37:22,764 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:451/540 detect_loss:0.269904 correct_loss:5.466564 loss:5.736468
+2022-11-14 09:37:24,128 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:452/540 detect_loss:0.270243 correct_loss:5.470430 loss:5.740674
+2022-11-14 09:37:25,481 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:453/540 detect_loss:0.271214 correct_loss:5.479224 loss:5.750438
+2022-11-14 09:37:26,841 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:454/540 detect_loss:0.269040 correct_loss:5.460049 loss:5.729089
+2022-11-14 09:37:28,197 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:455/540 detect_loss:0.262667 correct_loss:5.449697 loss:5.712364
+2022-11-14 09:37:29,554 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:456/540 detect_loss:0.271127 correct_loss:5.429458 loss:5.700585
+2022-11-14 09:37:30,917 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:457/540 detect_loss:0.268447 correct_loss:5.498792 loss:5.767240
+2022-11-14 09:37:32,280 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:458/540 detect_loss:0.266386 correct_loss:5.486468 loss:5.752854
+2022-11-14 09:37:33,643 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:459/540 detect_loss:0.276429 correct_loss:5.465698 loss:5.742127
+2022-11-14 09:37:35,005 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:460/540 detect_loss:0.267990 correct_loss:5.484521 loss:5.752511
+2022-11-14 09:37:36,363 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:461/540 detect_loss:0.268559 correct_loss:5.485835 loss:5.754394
+2022-11-14 09:37:37,727 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:462/540 detect_loss:0.268314 correct_loss:5.473541 loss:5.741855
+2022-11-14 09:37:39,089 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:463/540 detect_loss:0.263698 correct_loss:5.447207 loss:5.710905
+2022-11-14 09:37:40,449 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:464/540 detect_loss:0.270348 correct_loss:5.461148 loss:5.731495
+2022-11-14 09:37:41,811 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:465/540 detect_loss:0.279456 correct_loss:5.480077 loss:5.759533
+2022-11-14 09:37:43,171 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:466/540 detect_loss:0.270981 correct_loss:5.437631 loss:5.708612
+2022-11-14 09:37:44,525 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:467/540 detect_loss:0.266264 correct_loss:5.465761 loss:5.732025
+2022-11-14 09:37:45,883 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:468/540 detect_loss:0.288920 correct_loss:5.453815 loss:5.742735
+2022-11-14 09:37:47,245 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:469/540 detect_loss:0.258461 correct_loss:5.439692 loss:5.698153
+2022-11-14 09:37:48,601 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:470/540 detect_loss:0.267616 correct_loss:5.456941 loss:5.724556
+2022-11-14 09:37:49,960 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:471/540 detect_loss:0.266940 correct_loss:5.454604 loss:5.721544
+2022-11-14 09:37:51,318 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:472/540 detect_loss:0.270490 correct_loss:5.461578 loss:5.732069
+2022-11-14 09:37:52,674 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:473/540 detect_loss:0.276257 correct_loss:5.477453 loss:5.753710
+2022-11-14 09:37:54,033 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:474/540 detect_loss:0.267930 correct_loss:5.467766 loss:5.735696
+2022-11-14 09:37:55,387 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:475/540 detect_loss:0.277774 correct_loss:5.497762 loss:5.775537
+2022-11-14 09:37:56,744 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:476/540 detect_loss:0.265173 correct_loss:5.432866 loss:5.698040
+2022-11-14 09:37:58,103 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:477/540 detect_loss:0.270843 correct_loss:5.456770 loss:5.727613
+2022-11-14 09:37:59,464 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:478/540 detect_loss:0.267620 correct_loss:5.481769 loss:5.749390
+2022-11-14 09:38:00,826 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:479/540 detect_loss:0.269715 correct_loss:5.423154 loss:5.692870
+2022-11-14 09:38:02,186 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:480/540 detect_loss:0.265829 correct_loss:5.408745 loss:5.674574
+2022-11-14 09:38:03,542 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:481/540 detect_loss:0.264875 correct_loss:5.466938 loss:5.731814
+2022-11-14 09:38:04,903 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:482/540 detect_loss:0.258614 correct_loss:5.403569 loss:5.662184
+2022-11-14 09:38:06,259 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:483/540 detect_loss:0.280334 correct_loss:5.474069 loss:5.754403
+2022-11-14 09:38:07,616 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:484/540 detect_loss:0.260142 correct_loss:5.400157 loss:5.660299
+2022-11-14 09:38:08,971 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:485/540 detect_loss:0.257493 correct_loss:5.426010 loss:5.683504
+2022-11-14 09:38:09,951 - INFO - main.py - train - 89 - 【train】 epoch:9/10 step:486/540 detect_loss:0.270272 correct_loss:5.425941 loss:5.696212
+2022-11-14 09:38:11,466 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:487/540 detect_loss:0.273423 correct_loss:5.440552 loss:5.713975
+2022-11-14 09:38:12,824 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:488/540 detect_loss:0.257727 correct_loss:5.432041 loss:5.689768
+2022-11-14 09:38:14,181 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:489/540 detect_loss:0.272229 correct_loss:5.436680 loss:5.708909
+2022-11-14 09:38:15,546 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:490/540 detect_loss:0.271731 correct_loss:5.411263 loss:5.682993
+2022-11-14 09:38:16,903 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:491/540 detect_loss:0.264078 correct_loss:5.444639 loss:5.708716
+2022-11-14 09:38:18,263 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:492/540 detect_loss:0.266325 correct_loss:5.409052 loss:5.675377
+2022-11-14 09:38:19,617 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:493/540 detect_loss:0.273114 correct_loss:5.435442 loss:5.708556
+2022-11-14 09:38:20,965 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:494/540 detect_loss:0.273580 correct_loss:5.454687 loss:5.728266
+2022-11-14 09:38:22,321 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:495/540 detect_loss:0.267127 correct_loss:5.419054 loss:5.686180
+2022-11-14 09:38:23,677 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:496/540 detect_loss:0.268508 correct_loss:5.434965 loss:5.703472
+2022-11-14 09:38:25,036 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:497/540 detect_loss:0.274766 correct_loss:5.471149 loss:5.745915
+2022-11-14 09:38:26,396 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:498/540 detect_loss:0.265207 correct_loss:5.418915 loss:5.684122
+2022-11-14 09:38:27,757 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:499/540 detect_loss:0.271533 correct_loss:5.412520 loss:5.684052
+2022-11-14 09:38:36,545 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:38:36,545 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:4.18%, d_recall:2.09%, d_f1:2.79%
+2022-11-14 09:38:36,546 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:38:36,546 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 767
+2022-11-14 09:38:36,547 - INFO - main.py - train - 105 - 【dev】 loss:95.677352 d_precision:0.0418 d_recall:0.0209 d_f1:0.0279 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:38:37,895 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:500/540 detect_loss:0.264255 correct_loss:5.406629 loss:5.670884
+2022-11-14 09:38:39,256 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:501/540 detect_loss:0.267259 correct_loss:5.434253 loss:5.701511
+2022-11-14 09:38:40,626 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:502/540 detect_loss:0.265420 correct_loss:5.397102 loss:5.662522
+2022-11-14 09:38:41,976 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:503/540 detect_loss:0.261890 correct_loss:5.409482 loss:5.671371
+2022-11-14 09:38:43,328 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:504/540 detect_loss:0.259034 correct_loss:5.403475 loss:5.662508
+2022-11-14 09:38:44,691 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:505/540 detect_loss:0.265554 correct_loss:5.431044 loss:5.696598
+2022-11-14 09:38:46,049 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:506/540 detect_loss:0.260430 correct_loss:5.430521 loss:5.690952
+2022-11-14 09:38:47,416 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:507/540 detect_loss:0.271364 correct_loss:5.419004 loss:5.690368
+2022-11-14 09:38:48,773 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:508/540 detect_loss:0.271945 correct_loss:5.449653 loss:5.721597
+2022-11-14 09:38:50,130 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:509/540 detect_loss:0.264540 correct_loss:5.388244 loss:5.652784
+2022-11-14 09:38:51,485 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:510/540 detect_loss:0.266416 correct_loss:5.431597 loss:5.698013
+2022-11-14 09:38:52,840 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:511/540 detect_loss:0.262298 correct_loss:5.423432 loss:5.685730
+2022-11-14 09:38:54,191 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:512/540 detect_loss:0.265197 correct_loss:5.449469 loss:5.714665
+2022-11-14 09:38:55,541 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:513/540 detect_loss:0.258766 correct_loss:5.424141 loss:5.682908
+2022-11-14 09:38:56,902 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:514/540 detect_loss:0.263278 correct_loss:5.409760 loss:5.673038
+2022-11-14 09:38:58,260 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:515/540 detect_loss:0.276044 correct_loss:5.460803 loss:5.736846
+2022-11-14 09:38:59,623 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:516/540 detect_loss:0.267955 correct_loss:5.428415 loss:5.696370
+2022-11-14 09:39:00,987 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:517/540 detect_loss:0.262177 correct_loss:5.407062 loss:5.669239
+2022-11-14 09:39:02,349 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:518/540 detect_loss:0.254437 correct_loss:5.421485 loss:5.675922
+2022-11-14 09:39:03,715 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:519/540 detect_loss:0.268755 correct_loss:5.407726 loss:5.676482
+2022-11-14 09:39:05,066 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:520/540 detect_loss:0.261177 correct_loss:5.409898 loss:5.671075
+2022-11-14 09:39:06,428 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:521/540 detect_loss:0.263362 correct_loss:5.428640 loss:5.692002
+2022-11-14 09:39:07,784 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:522/540 detect_loss:0.266742 correct_loss:5.418819 loss:5.685562
+2022-11-14 09:39:09,137 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:523/540 detect_loss:0.268364 correct_loss:5.403456 loss:5.671821
+2022-11-14 09:39:10,487 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:524/540 detect_loss:0.278435 correct_loss:5.426174 loss:5.704609
+2022-11-14 09:39:11,847 - INFO - main.py - train - 89 - 【train】 epoch:10/10 step:525/540 detect_loss:0.268242 correct_loss:5.423150 loss:5.691391
+2022-11-14 09:39:25,682 - INFO - main.py - <module> - 359 - 使用模型【】，使用数据集：【】
+2022-11-14 09:39:25,881 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 09:39:25,903 - INFO - dataset.py - load_label_dict - 82 - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+2022-11-14 09:39:25,937 - INFO - main.py - <module> - 384 - 使用【cuda】
+2022-11-14 09:39:32,252 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:1/500 detect_loss:0.480885 correct_loss:6.935717 loss:7.416601
+2022-11-14 09:39:33,521 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:2/500 detect_loss:0.498025 correct_loss:6.949326 loss:7.447351
+2022-11-14 09:39:34,796 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:3/500 detect_loss:0.480418 correct_loss:6.919497 loss:7.399914
+2022-11-14 09:39:36,078 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:4/500 detect_loss:0.488670 correct_loss:6.910350 loss:7.399020
+2022-11-14 09:39:37,373 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:5/500 detect_loss:0.489002 correct_loss:6.927358 loss:7.416360
+2022-11-14 09:39:38,670 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:6/500 detect_loss:0.485648 correct_loss:6.921331 loss:7.406979
+2022-11-14 09:39:39,967 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:7/500 detect_loss:0.478026 correct_loss:6.957147 loss:7.435174
+2022-11-14 09:39:41,277 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:8/500 detect_loss:0.491744 correct_loss:6.916540 loss:7.408284
+2022-11-14 09:39:42,583 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:9/500 detect_loss:0.489979 correct_loss:6.915608 loss:7.405587
+2022-11-14 09:39:43,911 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:10/500 detect_loss:0.480955 correct_loss:6.920161 loss:7.401116
+2022-11-14 09:39:45,246 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:11/500 detect_loss:0.494905 correct_loss:6.923420 loss:7.418325
+2022-11-14 09:39:46,587 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:12/500 detect_loss:0.481756 correct_loss:6.930060 loss:7.411817
+2022-11-14 09:39:47,919 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:13/500 detect_loss:0.488482 correct_loss:6.922121 loss:7.410603
+2022-11-14 09:39:49,260 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:14/500 detect_loss:0.497105 correct_loss:6.931424 loss:7.428530
+2022-11-14 09:39:50,606 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:15/500 detect_loss:0.482536 correct_loss:6.923018 loss:7.405555
+2022-11-14 09:39:51,957 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:16/500 detect_loss:0.491465 correct_loss:6.929973 loss:7.421438
+2022-11-14 09:39:53,312 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:17/500 detect_loss:0.480197 correct_loss:6.895628 loss:7.375824
+2022-11-14 09:39:54,675 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:18/500 detect_loss:0.472359 correct_loss:6.942979 loss:7.415338
+2022-11-14 09:39:56,033 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:19/500 detect_loss:0.477952 correct_loss:6.928407 loss:7.406359
+2022-11-14 09:39:57,410 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:20/500 detect_loss:0.473601 correct_loss:6.922687 loss:7.396288
+2022-11-14 09:39:58,771 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:21/500 detect_loss:0.483450 correct_loss:6.931419 loss:7.414869
+2022-11-14 09:40:00,149 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:22/500 detect_loss:0.482571 correct_loss:6.916099 loss:7.398670
+2022-11-14 09:40:01,532 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:23/500 detect_loss:0.478772 correct_loss:6.894232 loss:7.373004
+2022-11-14 09:40:02,913 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:24/500 detect_loss:0.464602 correct_loss:6.907128 loss:7.371731
+2022-11-14 09:40:04,302 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:25/500 detect_loss:0.472657 correct_loss:6.897925 loss:7.370582
+2022-11-14 09:40:05,686 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:26/500 detect_loss:0.480911 correct_loss:6.906270 loss:7.387181
+2022-11-14 09:40:07,075 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:27/500 detect_loss:0.468938 correct_loss:6.900071 loss:7.369009
+2022-11-14 09:40:08,468 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:28/500 detect_loss:0.489981 correct_loss:6.909147 loss:7.399128
+2022-11-14 09:40:09,855 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:29/500 detect_loss:0.469740 correct_loss:6.911238 loss:7.380978
+2022-11-14 09:40:11,236 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:30/500 detect_loss:0.479725 correct_loss:6.894125 loss:7.373850
+2022-11-14 09:40:12,608 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:31/500 detect_loss:0.472349 correct_loss:6.920170 loss:7.392519
+2022-11-14 09:40:13,980 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:32/500 detect_loss:0.476471 correct_loss:6.877727 loss:7.354197
+2022-11-14 09:40:15,345 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:33/500 detect_loss:0.470326 correct_loss:6.885520 loss:7.355846
+2022-11-14 09:40:16,717 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:34/500 detect_loss:0.467602 correct_loss:6.884870 loss:7.352471
+2022-11-14 09:40:18,080 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:35/500 detect_loss:0.480568 correct_loss:6.869379 loss:7.349946
+2022-11-14 09:40:19,439 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:36/500 detect_loss:0.480212 correct_loss:6.866312 loss:7.346523
+2022-11-14 09:40:20,789 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:37/500 detect_loss:0.471493 correct_loss:6.881601 loss:7.353094
+2022-11-14 09:40:22,138 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:38/500 detect_loss:0.472359 correct_loss:6.867951 loss:7.340310
+2022-11-14 09:40:23,477 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:39/500 detect_loss:0.461949 correct_loss:6.863293 loss:7.325242
+2022-11-14 09:40:24,818 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:40/500 detect_loss:0.466460 correct_loss:6.868262 loss:7.334722
+2022-11-14 09:40:26,156 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:41/500 detect_loss:0.479409 correct_loss:6.858907 loss:7.338315
+2022-11-14 09:40:27,485 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:42/500 detect_loss:0.490866 correct_loss:6.881403 loss:7.372269
+2022-11-14 09:40:28,813 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:43/500 detect_loss:0.460867 correct_loss:6.851479 loss:7.312346
+2022-11-14 09:40:30,133 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:44/500 detect_loss:0.467156 correct_loss:6.843965 loss:7.311121
+2022-11-14 09:40:31,453 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:45/500 detect_loss:0.469414 correct_loss:6.868301 loss:7.337716
+2022-11-14 09:40:32,777 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:46/500 detect_loss:0.471146 correct_loss:6.859841 loss:7.330987
+2022-11-14 09:40:34,096 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:47/500 detect_loss:0.464896 correct_loss:6.840036 loss:7.304932
+2022-11-14 09:40:35,415 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:48/500 detect_loss:0.462157 correct_loss:6.838256 loss:7.300413
+2022-11-14 09:40:36,734 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:49/500 detect_loss:0.470338 correct_loss:6.843301 loss:7.313640
+2022-11-14 09:40:45,527 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:40:45,528 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.55%, d_recall:99.81%, d_f1:3.05%
+2022-11-14 09:40:45,528 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:40:45,528 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 540
+2022-11-14 09:40:45,529 - INFO - main.py - train - 105 - 【dev】 loss:131.006082 d_precision:0.0155 d_recall:0.9981 d_f1:0.0305 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:40:46,337 - INFO - main.py - train - 89 - 【train】 epoch:1/10 step:50/500 detect_loss:0.487881 correct_loss:6.827680 loss:7.315560
+2022-11-14 09:40:47,814 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:51/500 detect_loss:0.464436 correct_loss:6.813403 loss:7.277839
+2022-11-14 09:40:49,133 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:52/500 detect_loss:0.454245 correct_loss:6.823380 loss:7.277625
+2022-11-14 09:40:50,467 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:53/500 detect_loss:0.456781 correct_loss:6.816095 loss:7.272876
+2022-11-14 09:40:51,788 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:54/500 detect_loss:0.458403 correct_loss:6.789963 loss:7.248366
+2022-11-14 09:40:53,107 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:55/500 detect_loss:0.449099 correct_loss:6.793578 loss:7.242677
+2022-11-14 09:40:54,426 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:56/500 detect_loss:0.456972 correct_loss:6.799068 loss:7.256041
+2022-11-14 09:40:55,755 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:57/500 detect_loss:0.453838 correct_loss:6.789200 loss:7.243038
+2022-11-14 09:40:57,079 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:58/500 detect_loss:0.454821 correct_loss:6.782170 loss:7.236991
+2022-11-14 09:40:58,405 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:59/500 detect_loss:0.446039 correct_loss:6.786496 loss:7.232535
+2022-11-14 09:40:59,722 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:60/500 detect_loss:0.445546 correct_loss:6.793763 loss:7.239309
+2022-11-14 09:41:01,052 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:61/500 detect_loss:0.452178 correct_loss:6.785264 loss:7.237442
+2022-11-14 09:41:02,385 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:62/500 detect_loss:0.450379 correct_loss:6.775578 loss:7.225957
+2022-11-14 09:41:03,717 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:63/500 detect_loss:0.436931 correct_loss:6.755836 loss:7.192767
+2022-11-14 09:41:05,052 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:64/500 detect_loss:0.448544 correct_loss:6.754476 loss:7.203020
+2022-11-14 09:41:06,397 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:65/500 detect_loss:0.452168 correct_loss:6.732242 loss:7.184410
+2022-11-14 09:41:07,740 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:66/500 detect_loss:0.453511 correct_loss:6.744313 loss:7.197824
+2022-11-14 09:41:09,080 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:67/500 detect_loss:0.447606 correct_loss:6.740830 loss:7.188436
+2022-11-14 09:41:10,420 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:68/500 detect_loss:0.442013 correct_loss:6.753944 loss:7.195958
+2022-11-14 09:41:11,757 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:69/500 detect_loss:0.435033 correct_loss:6.753947 loss:7.188981
+2022-11-14 09:41:13,100 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:70/500 detect_loss:0.444138 correct_loss:6.748167 loss:7.192305
+2022-11-14 09:41:14,445 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:71/500 detect_loss:0.433108 correct_loss:6.718760 loss:7.151868
+2022-11-14 09:41:15,787 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:72/500 detect_loss:0.433113 correct_loss:6.746323 loss:7.179436
+2022-11-14 09:41:17,134 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:73/500 detect_loss:0.450832 correct_loss:6.750798 loss:7.201630
+2022-11-14 09:41:18,483 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:74/500 detect_loss:0.433195 correct_loss:6.725553 loss:7.158749
+2022-11-14 09:41:19,835 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:75/500 detect_loss:0.437588 correct_loss:6.719933 loss:7.157521
+2022-11-14 09:41:21,185 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:76/500 detect_loss:0.448235 correct_loss:6.703103 loss:7.151338
+2022-11-14 09:41:22,533 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:77/500 detect_loss:0.427722 correct_loss:6.686910 loss:7.114632
+2022-11-14 09:41:23,881 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:78/500 detect_loss:0.434120 correct_loss:6.695529 loss:7.129648
+2022-11-14 09:41:25,227 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:79/500 detect_loss:0.437374 correct_loss:6.688792 loss:7.126166
+2022-11-14 09:41:26,577 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:80/500 detect_loss:0.433407 correct_loss:6.711733 loss:7.145140
+2022-11-14 09:41:27,920 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:81/500 detect_loss:0.429731 correct_loss:6.680817 loss:7.110548
+2022-11-14 09:41:29,258 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:82/500 detect_loss:0.432750 correct_loss:6.689142 loss:7.121892
+2022-11-14 09:41:30,599 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:83/500 detect_loss:0.419635 correct_loss:6.664156 loss:7.083790
+2022-11-14 09:41:31,945 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:84/500 detect_loss:0.431284 correct_loss:6.672055 loss:7.103338
+2022-11-14 09:41:33,288 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:85/500 detect_loss:0.438391 correct_loss:6.680187 loss:7.118577
+2022-11-14 09:41:34,624 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:86/500 detect_loss:0.422749 correct_loss:6.638984 loss:7.061732
+2022-11-14 09:41:35,963 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:87/500 detect_loss:0.417309 correct_loss:6.639782 loss:7.057092
+2022-11-14 09:41:37,294 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:88/500 detect_loss:0.430022 correct_loss:6.647486 loss:7.077508
+2022-11-14 09:41:38,635 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:89/500 detect_loss:0.427728 correct_loss:6.659714 loss:7.087441
+2022-11-14 09:41:39,972 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:90/500 detect_loss:0.432612 correct_loss:6.668152 loss:7.100764
+2022-11-14 09:41:41,300 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:91/500 detect_loss:0.433140 correct_loss:6.636363 loss:7.069503
+2022-11-14 09:41:42,639 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:92/500 detect_loss:0.420145 correct_loss:6.668930 loss:7.089076
+2022-11-14 09:41:43,970 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:93/500 detect_loss:0.422883 correct_loss:6.621435 loss:7.044318
+2022-11-14 09:41:45,311 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:94/500 detect_loss:0.420775 correct_loss:6.621450 loss:7.042225
+2022-11-14 09:41:46,646 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:95/500 detect_loss:0.418583 correct_loss:6.623919 loss:7.042502
+2022-11-14 09:41:47,982 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:96/500 detect_loss:0.411653 correct_loss:6.613786 loss:7.025439
+2022-11-14 09:41:49,317 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:97/500 detect_loss:0.418093 correct_loss:6.633461 loss:7.051554
+2022-11-14 09:41:50,661 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:98/500 detect_loss:0.418671 correct_loss:6.615133 loss:7.033804
+2022-11-14 09:41:51,995 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:99/500 detect_loss:0.427282 correct_loss:6.598193 loss:7.025475
+2022-11-14 09:42:00,944 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:42:00,944 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.54%, d_recall:98.7%, d_f1:3.0300000000000002%
+2022-11-14 09:42:00,944 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:42:00,945 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 540
+2022-11-14 09:42:00,946 - INFO - main.py - train - 105 - 【dev】 loss:126.057840 d_precision:0.0154 d_recall:0.9870 d_f1:0.0303 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:42:01,751 - INFO - main.py - train - 89 - 【train】 epoch:2/10 step:100/500 detect_loss:0.422563 correct_loss:6.611798 loss:7.034361
+2022-11-14 09:42:03,238 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:101/500 detect_loss:0.398221 correct_loss:6.606196 loss:7.004417
+2022-11-14 09:42:04,572 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:102/500 detect_loss:0.411628 correct_loss:6.563488 loss:6.975116
+2022-11-14 09:42:05,899 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:103/500 detect_loss:0.422112 correct_loss:6.566024 loss:6.988137
+2022-11-14 09:42:07,239 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:104/500 detect_loss:0.413423 correct_loss:6.595369 loss:7.008793
+2022-11-14 09:42:08,575 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:105/500 detect_loss:0.410552 correct_loss:6.580617 loss:6.991169
+2022-11-14 09:42:09,917 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:106/500 detect_loss:0.419235 correct_loss:6.595423 loss:7.014658
+2022-11-14 09:42:11,253 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:107/500 detect_loss:0.404699 correct_loss:6.610958 loss:7.015657
+2022-11-14 09:42:12,583 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:108/500 detect_loss:0.420091 correct_loss:6.564784 loss:6.984875
+2022-11-14 09:42:13,913 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:109/500 detect_loss:0.412367 correct_loss:6.575212 loss:6.987579
+2022-11-14 09:42:15,251 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:110/500 detect_loss:0.404058 correct_loss:6.562020 loss:6.966078
+2022-11-14 09:42:16,592 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:111/500 detect_loss:0.404008 correct_loss:6.564152 loss:6.968160
+2022-11-14 09:42:17,928 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:112/500 detect_loss:0.400175 correct_loss:6.570144 loss:6.970319
+2022-11-14 09:42:19,267 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:113/500 detect_loss:0.411661 correct_loss:6.566369 loss:6.978030
+2022-11-14 09:42:20,601 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:114/500 detect_loss:0.404082 correct_loss:6.543933 loss:6.948015
+2022-11-14 09:42:21,936 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:115/500 detect_loss:0.408205 correct_loss:6.551001 loss:6.959207
+2022-11-14 09:42:23,270 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:116/500 detect_loss:0.408759 correct_loss:6.546353 loss:6.955112
+2022-11-14 09:42:24,600 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:117/500 detect_loss:0.408542 correct_loss:6.544933 loss:6.953475
+2022-11-14 09:42:25,938 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:118/500 detect_loss:0.404953 correct_loss:6.498383 loss:6.903336
+2022-11-14 09:42:27,275 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:119/500 detect_loss:0.405112 correct_loss:6.523373 loss:6.928485
+2022-11-14 09:42:28,613 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:120/500 detect_loss:0.393788 correct_loss:6.529431 loss:6.923220
+2022-11-14 09:42:29,952 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:121/500 detect_loss:0.404986 correct_loss:6.529695 loss:6.934680
+2022-11-14 09:42:31,284 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:122/500 detect_loss:0.405925 correct_loss:6.523211 loss:6.929135
+2022-11-14 09:42:32,620 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:123/500 detect_loss:0.404327 correct_loss:6.502855 loss:6.907182
+2022-11-14 09:42:33,959 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:124/500 detect_loss:0.408116 correct_loss:6.517693 loss:6.925809
+2022-11-14 09:42:35,296 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:125/500 detect_loss:0.402055 correct_loss:6.510566 loss:6.912621
+2022-11-14 09:42:36,629 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:126/500 detect_loss:0.403339 correct_loss:6.501818 loss:6.905157
+2022-11-14 09:42:37,968 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:127/500 detect_loss:0.399458 correct_loss:6.482879 loss:6.882337
+2022-11-14 09:42:39,306 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:128/500 detect_loss:0.396915 correct_loss:6.467879 loss:6.864795
+2022-11-14 09:42:40,644 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:129/500 detect_loss:0.406331 correct_loss:6.482620 loss:6.888951
+2022-11-14 09:42:41,984 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:130/500 detect_loss:0.400177 correct_loss:6.466448 loss:6.866625
+2022-11-14 09:42:43,323 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:131/500 detect_loss:0.397856 correct_loss:6.479642 loss:6.877498
+2022-11-14 09:42:44,669 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:132/500 detect_loss:0.388463 correct_loss:6.451698 loss:6.840161
+2022-11-14 09:42:46,005 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:133/500 detect_loss:0.396068 correct_loss:6.456135 loss:6.852203
+2022-11-14 09:42:47,347 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:134/500 detect_loss:0.404578 correct_loss:6.465061 loss:6.869639
+2022-11-14 09:42:48,685 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:135/500 detect_loss:0.395203 correct_loss:6.464760 loss:6.859963
+2022-11-14 09:42:50,022 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:136/500 detect_loss:0.399980 correct_loss:6.452804 loss:6.852784
+2022-11-14 09:42:51,372 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:137/500 detect_loss:0.391168 correct_loss:6.440823 loss:6.831991
+2022-11-14 09:42:52,713 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:138/500 detect_loss:0.386965 correct_loss:6.415414 loss:6.802379
+2022-11-14 09:42:54,052 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:139/500 detect_loss:0.397390 correct_loss:6.436341 loss:6.833731
+2022-11-14 09:42:55,387 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:140/500 detect_loss:0.392635 correct_loss:6.437325 loss:6.829959
+2022-11-14 09:42:56,729 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:141/500 detect_loss:0.387106 correct_loss:6.442591 loss:6.829698
+2022-11-14 09:42:58,067 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:142/500 detect_loss:0.393369 correct_loss:6.416969 loss:6.810338
+2022-11-14 09:42:59,412 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:143/500 detect_loss:0.389344 correct_loss:6.406240 loss:6.795584
+2022-11-14 09:43:00,759 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:144/500 detect_loss:0.402181 correct_loss:6.427621 loss:6.829802
+2022-11-14 09:43:02,129 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:145/500 detect_loss:0.389429 correct_loss:6.413347 loss:6.802775
+2022-11-14 09:43:03,473 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:146/500 detect_loss:0.396339 correct_loss:6.407166 loss:6.803504
+2022-11-14 09:43:04,813 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:147/500 detect_loss:0.386851 correct_loss:6.397774 loss:6.784626
+2022-11-14 09:43:06,148 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:148/500 detect_loss:0.384561 correct_loss:6.398324 loss:6.782885
+2022-11-14 09:43:07,490 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:149/500 detect_loss:0.379612 correct_loss:6.404541 loss:6.784153
+2022-11-14 09:43:16,535 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:43:16,535 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.43%, d_recall:87.96000000000001%, d_f1:2.81%
+2022-11-14 09:43:16,536 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:43:16,536 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 540
+2022-11-14 09:43:16,537 - INFO - main.py - train - 105 - 【dev】 loss:121.442067 d_precision:0.0143 d_recall:0.8796 d_f1:0.0281 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:43:17,346 - INFO - main.py - train - 89 - 【train】 epoch:3/10 step:150/500 detect_loss:0.395199 correct_loss:6.407012 loss:6.802211
+2022-11-14 09:43:18,845 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:151/500 detect_loss:0.393718 correct_loss:6.392929 loss:6.786648
+2022-11-14 09:43:20,193 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:152/500 detect_loss:0.379538 correct_loss:6.382132 loss:6.761670
+2022-11-14 09:43:21,537 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:153/500 detect_loss:0.382066 correct_loss:6.393406 loss:6.775473
+2022-11-14 09:43:22,880 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:154/500 detect_loss:0.389220 correct_loss:6.373038 loss:6.762259
+2022-11-14 09:43:24,220 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:155/500 detect_loss:0.390306 correct_loss:6.376865 loss:6.767171
+2022-11-14 09:43:25,566 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:156/500 detect_loss:0.382382 correct_loss:6.351727 loss:6.734108
+2022-11-14 09:43:26,908 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:157/500 detect_loss:0.385994 correct_loss:6.386033 loss:6.772027
+2022-11-14 09:43:28,247 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:158/500 detect_loss:0.378180 correct_loss:6.347283 loss:6.725463
+2022-11-14 09:43:29,591 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:159/500 detect_loss:0.378281 correct_loss:6.357581 loss:6.735862
+2022-11-14 09:43:30,930 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:160/500 detect_loss:0.380073 correct_loss:6.366619 loss:6.746692
+2022-11-14 09:43:32,278 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:161/500 detect_loss:0.374999 correct_loss:6.339894 loss:6.714893
+2022-11-14 09:43:33,616 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:162/500 detect_loss:0.383533 correct_loss:6.339551 loss:6.723085
+2022-11-14 09:43:34,955 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:163/500 detect_loss:0.378329 correct_loss:6.339322 loss:6.717650
+2022-11-14 09:43:36,292 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:164/500 detect_loss:0.376496 correct_loss:6.329049 loss:6.705545
+2022-11-14 09:43:37,636 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:165/500 detect_loss:0.377266 correct_loss:6.335282 loss:6.712548
+2022-11-14 09:43:38,976 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:166/500 detect_loss:0.379597 correct_loss:6.344604 loss:6.724201
+2022-11-14 09:43:40,320 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:167/500 detect_loss:0.390777 correct_loss:6.333322 loss:6.724098
+2022-11-14 09:43:41,662 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:168/500 detect_loss:0.370489 correct_loss:6.302591 loss:6.673080
+2022-11-14 09:43:42,998 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:169/500 detect_loss:0.373667 correct_loss:6.317703 loss:6.691370
+2022-11-14 09:43:44,337 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:170/500 detect_loss:0.371501 correct_loss:6.313240 loss:6.684741
+2022-11-14 09:43:45,682 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:171/500 detect_loss:0.370199 correct_loss:6.316955 loss:6.687154
+2022-11-14 09:43:47,029 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:172/500 detect_loss:0.367014 correct_loss:6.286525 loss:6.653539
+2022-11-14 09:43:48,366 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:173/500 detect_loss:0.373521 correct_loss:6.315215 loss:6.688736
+2022-11-14 09:43:49,700 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:174/500 detect_loss:0.382005 correct_loss:6.297987 loss:6.679992
+2022-11-14 09:43:51,031 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:175/500 detect_loss:0.375253 correct_loss:6.310813 loss:6.686066
+2022-11-14 09:43:52,367 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:176/500 detect_loss:0.369606 correct_loss:6.296549 loss:6.666155
+2022-11-14 09:43:53,707 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:177/500 detect_loss:0.378658 correct_loss:6.280352 loss:6.659010
+2022-11-14 09:43:55,048 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:178/500 detect_loss:0.365410 correct_loss:6.265571 loss:6.630981
+2022-11-14 09:43:56,378 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:179/500 detect_loss:0.379635 correct_loss:6.285343 loss:6.664978
+2022-11-14 09:43:57,715 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:180/500 detect_loss:0.371592 correct_loss:6.294878 loss:6.666470
+2022-11-14 09:43:59,053 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:181/500 detect_loss:0.371984 correct_loss:6.286386 loss:6.658370
+2022-11-14 09:44:00,387 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:182/500 detect_loss:0.379387 correct_loss:6.280281 loss:6.659668
+2022-11-14 09:44:01,723 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:183/500 detect_loss:0.374070 correct_loss:6.281348 loss:6.655418
+2022-11-14 09:44:03,060 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:184/500 detect_loss:0.379437 correct_loss:6.278852 loss:6.658290
+2022-11-14 09:44:04,397 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:185/500 detect_loss:0.366817 correct_loss:6.234874 loss:6.601691
+2022-11-14 09:44:05,739 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:186/500 detect_loss:0.374292 correct_loss:6.263770 loss:6.638062
+2022-11-14 09:44:07,077 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:187/500 detect_loss:0.366986 correct_loss:6.257319 loss:6.624306
+2022-11-14 09:44:08,416 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:188/500 detect_loss:0.370724 correct_loss:6.278565 loss:6.649289
+2022-11-14 09:44:09,758 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:189/500 detect_loss:0.366209 correct_loss:6.224679 loss:6.590889
+2022-11-14 09:44:11,102 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:190/500 detect_loss:0.364620 correct_loss:6.210442 loss:6.575062
+2022-11-14 09:44:12,444 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:191/500 detect_loss:0.362888 correct_loss:6.234130 loss:6.597018
+2022-11-14 09:44:13,783 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:192/500 detect_loss:0.361848 correct_loss:6.203899 loss:6.565747
+2022-11-14 09:44:15,121 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:193/500 detect_loss:0.353713 correct_loss:6.238875 loss:6.592588
+2022-11-14 09:44:16,457 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:194/500 detect_loss:0.370079 correct_loss:6.247420 loss:6.617499
+2022-11-14 09:44:17,794 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:195/500 detect_loss:0.367840 correct_loss:6.225776 loss:6.593616
+2022-11-14 09:44:19,134 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:196/500 detect_loss:0.351968 correct_loss:6.218680 loss:6.570648
+2022-11-14 09:44:20,473 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:197/500 detect_loss:0.359356 correct_loss:6.192714 loss:6.552071
+2022-11-14 09:44:21,803 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:198/500 detect_loss:0.371365 correct_loss:6.227262 loss:6.598626
+2022-11-14 09:44:23,143 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:199/500 detect_loss:0.356814 correct_loss:6.195605 loss:6.552419
+2022-11-14 09:44:32,142 - INFO - metric_utils.py - ctc_f1 - 91 - ====== [Char Level] ======
+2022-11-14 09:44:32,143 - INFO - metric_utils.py - ctc_f1 - 93 - d_precsion:1.32%, d_recall:67.22%, d_f1:2.59%
+2022-11-14 09:44:32,143 - INFO - metric_utils.py - ctc_f1 - 95 - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+2022-11-14 09:44:32,143 - INFO - metric_utils.py - ctc_f1 - 96 - error_char_num: 540
+2022-11-14 09:44:32,144 - INFO - main.py - train - 105 - 【dev】 loss:117.301208 d_precision:0.0132 d_recall:0.6722 d_f1:0.0259 c_precision:0.0000 c_recall:0.0000 c_f1:0.0000
+2022-11-14 09:44:32,955 - INFO - main.py - train - 89 - 【train】 epoch:4/10 step:200/500 detect_loss:0.363829 correct_loss:6.221338 loss:6.585167
+2022-11-14 09:44:34,457 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:201/500 detect_loss:0.360263 correct_loss:6.210192 loss:6.570455
+2022-11-14 09:44:35,792 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:202/500 detect_loss:0.359097 correct_loss:6.206234 loss:6.565331
+2022-11-14 09:44:37,123 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:203/500 detect_loss:0.368410 correct_loss:6.188763 loss:6.557173
+2022-11-14 09:44:38,468 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:204/500 detect_loss:0.369840 correct_loss:6.187674 loss:6.557514
+2022-11-14 09:44:39,805 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:205/500 detect_loss:0.358576 correct_loss:6.177261 loss:6.535837
+2022-11-14 09:44:41,142 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:206/500 detect_loss:0.358119 correct_loss:6.196638 loss:6.554757
+2022-11-14 09:44:42,484 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:207/500 detect_loss:0.370894 correct_loss:6.188009 loss:6.558902
+2022-11-14 09:44:43,814 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:208/500 detect_loss:0.356767 correct_loss:6.168548 loss:6.525315
+2022-11-14 09:44:45,155 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:209/500 detect_loss:0.357834 correct_loss:6.161943 loss:6.519777
+2022-11-14 09:44:46,485 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:210/500 detect_loss:0.357440 correct_loss:6.158350 loss:6.515790
+2022-11-14 09:44:47,823 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:211/500 detect_loss:0.356545 correct_loss:6.168046 loss:6.524590
+2022-11-14 09:44:49,157 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:212/500 detect_loss:0.362736 correct_loss:6.165328 loss:6.528064
+2022-11-14 09:44:50,495 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:213/500 detect_loss:0.349977 correct_loss:6.151102 loss:6.501079
+2022-11-14 09:44:51,831 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:214/500 detect_loss:0.350176 correct_loss:6.161662 loss:6.511838
+2022-11-14 09:44:53,172 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:215/500 detect_loss:0.357101 correct_loss:6.149436 loss:6.506537
+2022-11-14 09:44:54,503 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:216/500 detect_loss:0.344238 correct_loss:6.133855 loss:6.478094
+2022-11-14 09:44:55,839 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:217/500 detect_loss:0.359698 correct_loss:6.147450 loss:6.507148
+2022-11-14 09:44:57,178 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:218/500 detect_loss:0.346070 correct_loss:6.110501 loss:6.456571
+2022-11-14 09:44:58,519 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:219/500 detect_loss:0.349330 correct_loss:6.110947 loss:6.460278
+2022-11-14 09:44:59,852 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:220/500 detect_loss:0.343821 correct_loss:6.100174 loss:6.443996
+2022-11-14 09:45:01,185 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:221/500 detect_loss:0.349256 correct_loss:6.106225 loss:6.455481
+2022-11-14 09:45:02,521 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:222/500 detect_loss:0.358327 correct_loss:6.134239 loss:6.492566
+2022-11-14 09:45:03,858 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:223/500 detect_loss:0.353845 correct_loss:6.108312 loss:6.462157
+2022-11-14 09:45:05,191 - INFO - main.py - train - 89 - 【train】 epoch:5/10 step:224/500 detect_loss:0.351251 correct_loss:6.074003 loss:6.425254
