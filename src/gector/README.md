@@ -172,6 +172,8 @@ INFO:utils.metric_utils:f1 logfile saved at:logs/f1_score.log
 
 - 3、这里就不提供训练好的模型了，这里提供了数据，可自行训练。由于没有多卡，这里只是简单的单卡训练，没有用到分布式训练。
 
+- 4、最好还是要对长句子尽心处理，切分为短句子，这样能够提升效果。
+
 # 参考
 
 > [destwang/CTC2021 (github.com)](https://github.com/destwang/CTC2021)
@@ -183,3 +185,5 @@ INFO:utils.metric_utils:f1 logfile saved at:logs/f1_score.log
 > [CAIL (China AI and Law Challenge) Official website (cipsc.org.cn)](http://cail.cipsc.org.cn/task2.html?raceID=2&cail_tag=2022)
 >
 > [GECToR – Grammatical Error Correction: Tag, Not Rewrite](https://aclanthology.org/2020.bea-1.16/)
+>
+> [苏州大学语法纠错演示Demo](http://139.224.234.18:5002/)
